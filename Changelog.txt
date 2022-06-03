@@ -1,0 +1,154 @@
+#v1.25
+++ Delete ds5vita.skprx
+++ Another useless system update
+
+# v1.24
+++ Added option "Downloads"
+++ Added ReSavedata plugin by Princess of Sleeping v1.0
+++ Added option to install Yamt vpk (Downloads option)
+++ Removed Lolicon plugin
+
+# v1.23
+++ Added option to configure Vita Nearest Neighbour plugin by gameid or in section ALL
+++ Updated Music Premium plugin to v1.06 
+++ Turbopad plugin got replaced by Turbopad mod by yoti
+++ Updated Ref00d plugin to v1.1
+++ Added Fruitpeel plugin
+++ Warning message on how to boot the psvita disabling all plugins just in case
+++ Added option to download tsv files for pkgj
+
+# v1.22
+++ Added option to install sharkF00d.
+++ Added Kubridge plugin for TheOfficialFloW
+++ Fixed bug that will close the app after changing mount points for sd2vita and pressing triangle.
+
+# v1.21
+++ Fixed error when downloading plugins and languages updates
+
+# v1.20
+++ Added option in Extras section: Install Vitashell
+++ Some plugins corrections thanks to Yoti
+
+# v1.19
+++ Only some inner corrections.
+++ Support for http.download (without ITLs enso)
+
+# v1.18
+++ Update VitaBright v1.1 and vitabright-lut-editor-1.1.vpk
+++ [Fix] Plugins duplicates in Plugins Manager (PSP)
+
+# v1.17
+++ Added support to show pics of selected plugin function (will be uploaded eventually)
+++ Update DoubleTap2Sleep by Joel v1.1
+++ Added reVita plugin for MERLEV v1.07
+++ Added ds34vita plugin for MERLEV v1.0.1
+
+# v1.16
+++ Added new option at Extras for Autoboot plugin
+++ Added support to show pics of selected plugin function (will be uploaded eventually)
+++ HonRipper by GrapheneCt v1.0
+++ Added DoubleTap2Sleep by Joel v1.0
+
+# v1.15
+++ Added FdFix by TheOfficialFloW v1.0 (Required for GTA3)
+++ Added PVF Font as option to change font
+++ Fix Sharpscale Config Crash (so hope)
+
+# v1.14
+++ Added Catherine Full Body HD 1280x720 (Vita Plugins).
+
+# v1.13
+++ If you don't want to have background music, delete bg.mp3 file from ux0: data/autoplugin2/bg
+++ Background music controls: Right analog up/down for volume up/down and left/right for stop/play
+++ Update ds4touch by MERLev v1.1.3
+++ Update GE Patch plugin by TheOfficialFloW v0.2
+
+# v1.12
+++ Added Background Music (put your bg.mp3 in ux0:data/Autoplugin2/bg/bg.mp3)
+++ Added VolLightbarCtrlWithDS4 by CallmeBK v1.1
+++ Added LCD Colour Space Changer by cuevavirus 1.1.0
+++ Update ds4touch by MERLev v1.1.2
+++ Update TrophyShot v1.1.1 by FMudanyali
+++ Update GE Patch plugin by TheOfficialFloW v0.19
+
+# v1.11
+++ Update GE Patch plugin by TheOfficialFloW v0.18.1
+++ Update GTA Native Resolution Patch by TheOfficialFloW v0.3
+++ Update BetterTrackPlug by fmudanyali v1.0.3.1
+++ Update udcd_uvc by xerpi v1.7
+++ Update ds4touch by MERLev v1.1.1
+++ Added new function PSP Plugin Manager
+
+# v1.10
+++ Added Ge patch plugin from TheOfficialFloW in PSP plugins for Adrenaline section
+++ Added plugins from CBPS: QuickMenu Plus
+++ Update Sysident v1.1
+++ Added ds4touch from MERLev
+++ Added the new option Configuration for QuicMenu Plus to Extras section
+
+# v1.09
+++ Fix Updater Plugins Online
+++ Added missing plugin CoreUnlocker80000H by GrapheneCt
+
+# v1.08
+++ Added MiniVitaTV by TheOfficialFloW beta 0.4
+++ Added more plugins from CBPS: EmergencyMount, MAFUinput, TrophyShot, BootSound, ScoreHax, Sysident, DePlayEnabler.
+++ Added Persona 4 Golden HD plugin (Vita Plugins).
+++ Fix VitaGrafix PatchList.
+
+# v1.07
+- Minnor fix sharpscale install.
+
+# v1.06
+- Lib tai updated.
+- Reimplemented the new tai library in all parts of the application.
+- Re-implemented plugin manager.
+- Added support to update plugins of PSP.
+- Now the plugins will be installed in ur0 only.
+- If you have a config.txt in some other partition, this will be unified with ur0.
+- If you have a config.txt with any fault, such as an error of lowercase and capital letters or lack of parts of the system or absence of it, it will be repaired / written.
+
+
+# v1.05
++ Reverted changes and fix bugs in the v1.04
++ Added option "Reset config.txt in ur0:tai" in the section Extras.
+- Removed Option (Now plugins list can be sorted by: alfabetic or section, by pressing L/R).
+- Removed Option (Now plugins will only be installed to ur0:tai/config.txt)
+
+# v1.04
++ Fixed missing string in Chinese and Turkish Systems (Again)
++ Now plugins will only be installed to ur0:tai/config.txt
++ Added support to Reload config.txt for userland plugins (Only for plugins which not require reboot).
++ Now the section where each plugin would be installed to config.txt is added at plugins list, under plugin description.
++ Now plugins list can be sorted by: alfabetic or section, by pressing L/R.
+
+# v1.03
++ Added support to install extra applications that require some plugins.
+
+# v1.02
++ Fixed missing string in Chinese and Turkish Systems
++ Fixed buggy vitacheat installation (vitacheat font issue)
++ Update Russian by Yoti
++ Update Italian by TheHeroGAC
++ Update Chinese by yexun1995
+
+# v1.01
++ Chinese font download path error fixed.
++ New option to switch between custom fonts
++ Fix missing config.txt for pkgj (no folder found) and removed line for PSM Games
++ New Languages:
+ - Yoti/Aleksandr112 for translation in Russian
+ - Chronoss09 for translation in French
+ - Schn1ek3 for translation in German
+ - Kouchan for translation in Japanese
++ Update Spanish by gvaldebenit
++ Update English_us by Gadgetoid
+
+# v1.00
+- Update plugins Online
+- Update Languages Online
+- Now you can check yhe readme file online for most of the included plugins
+- Download/Install ITLS-Enso and Battery fixer (vpk)
+- Set a Custom Image (Custom Boot Splash is required)
+- Set a Custom Warning Message (Custom Warning is required)
+- Set Level Transparent (Transparent Impose is required)
