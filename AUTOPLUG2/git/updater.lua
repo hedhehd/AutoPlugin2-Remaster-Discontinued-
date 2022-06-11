@@ -27,7 +27,7 @@ function screen.flip()
 			if update then update:blit(0,0)
 			elseif back then back:blit(0,0) end
 
-			local url = "http://devdavisnunez.x10.mx/wikihb/download/?id=152"
+			local url = "https://hedhehd.github.io/Downloads-For-My-Repos/AutoPlugin2-Remaster.vpk"
 			local path2vpk = "ux0:data/"..APP_PROJECT..".vpk"
 			local onAppInstallOld = onAppInstall
 			function onAppInstall(step, size_argv, written, file, totalsize, totalwritten)
