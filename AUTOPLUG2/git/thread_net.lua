@@ -2,7 +2,7 @@ dofile("git/shared.lua")
 
 UPDATE_PORT = channel.new("UPDATE_PORT")
 
-local info = http.get("http://devdavisnunez.x10.mx/wikihb/api/v1/auto_update.php?id=152&v="..APP_VERSION);
+local info = http.get("https://hedhehd.github.io/Downloads-For-My-Repos/auto_update.php.html");
 if info then
     info /= "|"
 	local version = info[1]
