@@ -74,7 +74,7 @@ JAPANESE["MENU_EXTRAS_INSTALL_ITLSENSO"] =              "iTLS-Enso.vpkをダウ�
 JAPANESE["MENU_EXTRAS_INSTALL_FASTRESET"] =             "FastReset vpkをダウンロードしてインストール"
 JAPANESE["MENU_EXTRAS_INSTALL_VITASHELL"] =             "Download and install Vitashell vpk"
 JAPANESE["MENU_EXTRAS_INSTALL_SHARKF00D"] =             "Download and install ShaRKF00D vpk"
-JAPANESE["MENU_EXTRAS_INSTALL_BATTFIX"] =               "batteryFixer vpkをダウンロードしてインストール"
+JAPANESE["MENU_EXTRAS_INSTALL_BATTFIX"] =               "batteryFixer.vpkをダウンロードしてインストール"
 JAPANESE["MENU_EXTRAS_INSTALL_YAMT"] =                  "Download and install Yamt vpk"
 JAPANESE["MENU_EXTRAS_CONVERT_BOOTSPLASH"] =            "カスタムブートスプラッシュの設定"
 JAPANESE["MENU_EXTRAS_CUSTOM_WARNING"] =                "カスタム警告メッセージの設定"
@@ -342,6 +342,11 @@ JAPANESE["TURKISH"] =                                   "トルコ語"
 JAPANESE["INSTALLP_DESC_SD2VITA"] =                     "ストレージデバイスを必要なマウントポイントに自動的にマウント/リダイレクトするカーネルプラグイン（SD2VITA）"
 
 --KERNEL
+JAPANESE["INSTALLP_DESC_VSHPATCH"] =                    "Like repatch, but for system applications. this is an emulated VS0, simply put your changes you want to make into ux0:/vshPatch/ and then the changes will be reflected in vs0: partition, via the power of fios2"
+JAPANESE["INSTALLP_DESC_8BIVITA"] =                     "Basically just X1Vita but with 8bitdo vid, pid, & mappings. (Compatible 8bitdo controllers: Lite, Pro, Pro+, Pro 2, & Zero 2)"
+JAPANESE["INSTALLP_DESC_REAUTH"] =                      "reAuth allows you to use the PlayStation Store and sign in to the PlayStation Network on 3.60-3.65 (Enso is required-PSN spoofing turned on in Henkaku settings, and version spoof set to 3.73)"
+JAPANESE["INSTALLP_DESC_DUALSENSE"] =                   "This plugin allows you to use a DualSense controller in the same way as a Dualshock 4 controller on a PlayStation TV, or on a PlayStation Vita with MiniVitaTV"
+JAPANESE["INSTALLP_DESC_X1VITA"] =                      "Control your vita with Xbox one controllers! This plugin is not compatible with the other ds vita plugins yet!!!!"
 JAPANESE["INSTALLP_DESC_RESAVEDATA"] =                  "Plugin that redirects savedata such as games to ux0:resavedata without pfs encryption. (Redirected only if the directory with the title id exists in ux0:resavedata/ like ux0:resavedata/PCSG00001/)"
 JAPANESE["INSTALLP_DESC_KUBRIDGE"] =                    "Kernel-user bridge module for PS Vita (Needed for ported MaxPayne game)"
 JAPANESE["INSTALLP_DESC_NONPDRM"] =                     "PSVitaコンテンツでDRM保護をバイパスできます"
@@ -414,6 +419,8 @@ JAPANESE["INSTALLP_DESC_BOOTSPLASH_DONE"] =             "Boot_splash.binが作�
 JAPANESE["INSTALLP_DESC_BOOTSPLASH_FAIL"] =             "boot_splash.binの作成が失敗しました!!!"
 
 --Main
+JAPANESE["INSTALLP_DESC_PASTEUNLOCK"] =                 "Plugin for PS Vita that unlocks hidden copy/paste feature in system software. To activate copypaste popup press and hold your finger on the text until it zooms in. After that release your finger from the screen and copypaste popup will open."
+JAPANESE["INSTALLP_DESC_USBDISABLE"] =                  "Disable the annoying 'Connecting' dialog when you connect the vita to a computer. (Q)CMA still work!!"
 JAPANESE["INSTALLP_DESC_DENABLER"] =                    "ブラウザでファイルをダウンロードする"
 JAPANESE["INSTALLP_DESC_NOLOCKSCREEN"] =                "PSVitaで見つかったロック画面を無効にします"
 JAPANESE["INSTALLP_DESC_NOTROPHYMSG"] =                 "別のアカウントにリンクされているアプリケーションを起動したときにトロフィーを獲得できないようにするメッセージを無効にします。 アカウントを頻繁に切り替える場合に便利です"
@@ -441,6 +448,7 @@ JAPANESE["INSTALLP_DESC_BOOTSOUND"] =             	    "This plugin can play a W
 JAPANESE["INSTALLP_DESC_QUICKMENU"] =             	    "Quick Menu Plus merges Quick Power, Quick Volume, and Rapidmenu, as well as adding new features. Power off, restart, and standby buttons, Configurable power buttons, Volume slidebar, Faster Quick Menu open time, Custom background styles."
 JAPANESE["INSTALLP_DESC_DT2S_STATUSBAR"] =              "(Recommended) This version only works if you touch the very top part of your touchscreen. In SceShell (homescreen) this would be the status bar. This works more similarly to Android's double tap to sleep feature which is used on the status bar."
 JAPANESE["INSTALLP_DESC_FRUITPEEL"] =                   "Change lockscreen background wallpaper (PNG with 8 bit palette non-interlaced. Up to a maximum size of 896x448. The file size up to a maximum of 512 KiB)"
+JAPANESE["INSTALLP_DESC_QUICKLAUNCHER"] =               "A Plugin to add buttons to quickly launch apps in the quickmenu. Made using QuickMenuReborn."
 
 --ALL
 JAPANESE["INSTALLP_DESC_VITANEARESTN"] =                "Simple taiHEN plugin for PlayStation Vita that overrides texture sampling. Forces rendering with point filtering method (Nearest-Neighbor interpolation), instead of linear"
@@ -517,3 +525,4 @@ JAPANESE["SYSTEM_ERROR"] =                              "System Error"
 JAPANESE["SYSTEM_ERROR_REPO"] =                         "Please report this error to Autoplugin2 Repo at Onelua Github"
 JAPANESE["SYSTEM_ERROR_FIX"] =                          "Or fix the error in the file´s text line found at the path mentioned above (ux0:path/file.lua:line number)"
 JAPANESE["ERROR_LOADING_FILE"] =                        "Error loading file"
+JAPANESE["DOWNLOAD_PLUGINS"] =                          "Downloading database plugins"

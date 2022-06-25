@@ -342,6 +342,11 @@ ENGLISH_US["TURKISH"] =                                 "TURKISH"
 ENGLISH_US["INSTALLP_DESC_SD2VITA"] =                   "Kernel plugin that automatically mounts/redirects any storage device to any mount points you want (SD2VITA)"
 
 --KERNEL
+ENGLISH_US["INSTALLP_DESC_VSHPATCH"] =                  "Like repatch, but for system applications. this is an emulated VS0, simply put your changes you want to make into ux0:/vshPatch/ and then the changes will be reflected in vs0: partition, via the power of fios2"
+ENGLISH_US["INSTALLP_DESC_8BIVITA"] =                   "Basically just X1Vita but with 8bitdo vid, pid, & mappings. (Compatible 8bitdo controllers: Lite, Pro, Pro+, Pro 2, & Zero 2)"
+ENGLISH_US["INSTALLP_DESC_REAUTH"] =                    "reAuth allows you to use the PlayStation Store and sign in to the PlayStation Network on 3.60-3.65 (Enso is required-PSN spoofing turned on in Henkaku settings, and version spoof set to 3.73)"
+ENGLISH_US["INSTALLP_DESC_DUALSENSE"] =                 "This plugin allows you to use a DualSense controller in the same way as a Dualshock 4 controller on a PlayStation TV, or on a PlayStation Vita with MiniVitaTV"
+ENGLISH_US["INSTALLP_DESC_X1VITA"] =                    "Control your vita with Xbox one controllers! This plugin is not compatible with the other ds vita plugins yet!!!!"
 ENGLISH_US["INSTALLP_DESC_RESAVEDATA"] =                "Plugin that redirects savedata such as games to ux0:resavedata without pfs encryption. (Redirected only if the directory with the title id exists in ux0:resavedata/ like ux0:resavedata/PCSG00001/)"
 ENGLISH_US["INSTALLP_DESC_KUBRIDGE"] =                  "Kernel-user bridge module for PS Vita (Needed for ported MaxPayne game)"
 ENGLISH_US["INSTALLP_DESC_NONPDRM"] =                   "Bypass DRM protection on any PS Vita content"
@@ -357,7 +362,7 @@ ENGLISH_US["INSTALLP_DESC_REPATCH271"] =                "Antecedent version of r
 ENGLISH_US["INSTALLP_DESC_LOLICON"] =                   "Enables actual overclocking 500 MHz via a small Vita shell ran from kernel (SELECT + UP enable menu. SELECT + DOWN close menu)"
 ENGLISH_US["INSTALLP_DESC_DS3VITA"] =                   "Control your Vita with a DualShock 3"
 ENGLISH_US["INSTALLP_DESC_DS4VITA"] =                   "Control your Vita with a DualShock 4"
-ENGLISH_US["INSTALLP_DESC_DS34VITA"] =                  "Combines functionality of xerpi's ds4vita and ds3vita. Alows to use up to two controllers at the same time."
+ENGLISH_US["INSTALLP_DESC_DS34VITA"] =                  "Combines functionality of xerpi's ds4vita and ds3vita. Add support for the DualSense (by Hydr8gon), Allows reVita integration, Alows to use up to two controllers at the same time."
 ENGLISH_US["INSTALLP_DESC_DS5VITA"] =                   "Plugin to use PS5 dualsense on PSVITA"
 ENGLISH_US["INSTALLP_DESC_REVITA"] =                    "reVita is a plugin for PS Vita / PS TV, which allows you to remap inputs and trigger different actions. It is a continuation of Rinnegatamante's remaPSV, which was fully rewritten as a kernel plugin. (To bring the config menu, press START + SQUARE, customisable under Settings -> Hotkeys.)"
 ENGLISH_US["INSTALLP_DESC_REVITA_GYRO"] =               "Add Gyro support ?"
@@ -414,6 +419,8 @@ ENGLISH_US["INSTALLP_DESC_BOOTSPLASH_DONE"] =           "boot_splash.bin DONE !!
 ENGLISH_US["INSTALLP_DESC_BOOTSPLASH_FAIL"] =           "boot_splash.bin FAIL !!!"
 
 --Main
+ENGLISH_US["INSTALLP_DESC_PASTEUNLOCK"] =               "Plugin for PS Vita that unlocks hidden copy/paste feature in system software. To activate copypaste popup press and hold your finger on the text until it zooms in. After that release your finger from the screen and copypaste popup will open."
+ENGLISH_US["INSTALLP_DESC_USBDISABLE"] =                "Disable the annoying 'Connecting' dialog when you connect the vita to a computer. (Q)CMA still work!!"
 ENGLISH_US["INSTALLP_DESC_DENABLER"] =                  "Download files through your browser"
 ENGLISH_US["INSTALLP_DESC_NOLOCKSCREEN"] =              "Disables the lockscreen found on the PSVita"
 ENGLISH_US["INSTALLP_DESC_NOTROPHYMSG"] =               "Disables the trophy hint message when you launch application whose savedatas are linked to a different account. Useful if you constantly switch accounts"
@@ -441,6 +448,7 @@ ENGLISH_US["INSTALLP_DESC_BOOTSOUND"] =             	"This plugin can play a WAV
 ENGLISH_US["INSTALLP_DESC_QUICKMENU"] =             	"Quick Menu Plus merges Quick Power, Quick Volume, and Rapidmenu, as well as adding new features. Power off, restart, and standby buttons, Configurable power buttons, Volume slidebar, Faster Quick Menu open time, Custom background styles."
 ENGLISH_US["INSTALLP_DESC_DT2S_STATUSBAR"] =            "(Recommended) This version only works if you touch the very top part of your touchscreen. In SceShell (homescreen) this would be the status bar. This works more similarly to Android's double tap to sleep feature which is used on the status bar."
 ENGLISH_US["INSTALLP_DESC_FRUITPEEL"] =                 "Change lockscreen background wallpaper (PNG with 8 bit palette non-interlaced. Up to a maximum size of 896x448. The file size up to a maximum of 512 KiB)"
+ENGLISH_US["INSTALLP_DESC_QUICKLAUNCHER"] =             "A Plugin to add buttons to quickly launch apps in the quickmenu. Made using QuickMenuReborn."
 
 --ALL
 ENGLISH_US["INSTALLP_DESC_VITANEARESTN"] =              "Simple taiHEN plugin for PlayStation Vita that overrides texture sampling. Forces rendering with point filtering method (Nearest-Neighbor interpolation), instead of linear"
@@ -517,3 +525,4 @@ ENGLISH_US["SYSTEM_ERROR"] =                            "System Error"
 ENGLISH_US["SYSTEM_ERROR_REPO"] =                       "Please report this error to Autoplugin2 Repo at Onelua Github"
 ENGLISH_US["SYSTEM_ERROR_FIX"] =                        "Or fix the error in the file´s text line found at the path mentioned above (ux0:path/file.lua:line number)"
 ENGLISH_US["ERROR_LOADING_FILE"] =                      "Error loading file"
+ENGLISH_US["DOWNLOAD_PLUGINS"] =                        "Downloading database plugins"

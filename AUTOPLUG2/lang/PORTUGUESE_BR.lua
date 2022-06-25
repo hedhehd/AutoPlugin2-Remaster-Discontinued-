@@ -73,9 +73,9 @@ PORTUGUESE_BR["MENU_EXTRAS_PKGJ_TITLE"] =                  "Configurar opções 
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_ITLSENSO"] =            "Baixar e instalar o vpk iTLS-Enso"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_FASTRESET"] =           "Baixar e instalar o vpk FastReset"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_BATTFIX"] =             "Baixar e instalar o vpk batteryFixer"
-PORTUGUESE_BR["MENU_EXTRAS_INSTALL_VITASHELL"] =           "Baixar e instalar o vpk Vitashell"
-PORTUGUESE_BR["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "Baixar e instalar o vpk ShaRKF00D"
-PORTUGUESE_BR["MENU_EXTRAS_INSTALL_YAMT"] =                "Baixar e instalar o vpk Yamt"
+PORTUGUESE_BR["MENU_EXTRAS_INSTALL_VITASHELL"] =           "Download and install Vitashell vpk"
+PORTUGUESE_BR["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "Download and install ShaRKF00D vpk"
+PORTUGUESE_BR["MENU_EXTRAS_INSTALL_YAMT"] =                "Download and install Yamt vpk"
 PORTUGUESE_BR["MENU_EXTRAS_CONVERT_BOOTSPLASH"] =          "Definir splash de inicialização customizada"
 PORTUGUESE_BR["MENU_EXTRAS_CUSTOM_WARNING"] =              "Definir mensagem de aviso personalizada"
 PORTUGUESE_BR["MENU_EXTRAS_TRANSP_IMPOSE"] =               "Definir imposição transparente"
@@ -100,7 +100,7 @@ PORTUGUESE_BR["MENU_EXTRAS_CUSTOMWARNING_DESC"] =          "Definir uma mensagem
 PORTUGUESE_BR["MENU_EXTRAS_TRANSPIMPOSE_DESC"] =           "Definir valore de nível de transparência (255 = 0% Transparente, 0 = 100% Transparente) Valores abaixo de 30 não são recomendados"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_ITLSENSO_DESC"] =       "Baixar e instalar o vpk iTLS-Enso no Vita (Adiciona TLS v1.2 aos dispositivos com Enso habilitado)"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_VITASHELL_DESC"] =      "Download and install Vitashell vpk in your Vita"
-PORTUGUESE_BR["MENU_EXTRAS_INSTALL_FASTRESET_DESC"} =      "Download and install FastReset vpk in your Vita
+PORTUGUESE_BR["MENU_EXTRAS_INSTALL_FASTRESET_DESC"} =      "Download and install FastReset vpk in your Vita"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_YAMT_DESC"] =           "Download and install Yamt vpk in your Vita: Yet another (re)mount tool kernel plugin for PS Vita/PS TV (Requires Enso, compatible ONLY with firmware 3.60 and 3.65)"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_SHARKF00D_DESC"] =      "Download and install ShaRKF00D vpk in your Vita"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_DESC_BATTFIX"] =        "Baixar e instalar o vpk PSP2-batteryFixer no Vita (Corrige a maioria dos problemas relacionados à bateria do PSVita)"
@@ -342,6 +342,11 @@ PORTUGUESE_BR["TURKISH"] =                                 "Turco"
 PORTUGUESE_BR["INSTALLP_DESC_SD2VITA"] =                   "Plugin do kernel que monta/redireciona automaticamente qualquer dispositivo de armazenamento para qualquer ponto de montagem desejado (SD2VITA)"
 
 --KERNEL
+PORTUGUESE_BR["INSTALLP_DESC_VSHPATCH"] =                  "Like repatch, but for system applications. this is an emulated VS0, simply put your changes you want to make into ux0:/vshPatch/ and then the changes will be reflected in vs0: partition, via the power of fios2"
+PORTUGUESE_BR["INSTALLP_DESC_8BIVITA"] =                   "Basically just X1Vita but with 8bitdo vid, pid, & mappings. (Compatible 8bitdo controllers: Lite, Pro, Pro+, Pro 2, & Zero 2)"
+PORTUGUESE_BR["INSTALLP_DESC_REAUTH"] =                    "reAuth allows you to use the PlayStation Store and sign in to the PlayStation Network on 3.60-3.65 (Enso is required-PSN spoofing turned on in Henkaku settings, and version spoof set to 3.73)"
+PORTUGUESE_BR["INSTALLP_DESC_DUALSENSE"] =                 "This plugin allows you to use a DualSense controller in the same way as a Dualshock 4 controller on a PlayStation TV, or on a PlayStation Vita with MiniVitaTV"
+PORTUGUESE_BR["INSTALLP_DESC_X1VITA"] =                    "Control your vita with Xbox one controllers! This plugin is not compatible with the other ds vita plugins yet!!!!"
 PORTUGUESE_BR["INSTALLP_DESC_RESAVEDATA"] =                "Plugin that redirects savedata such as games to ux0:resavedata without pfs encryption. (Redirected only if the directory with the title id exists in ux0:resavedata/ like ux0:resavedata/PCSG00001/)"
 PORTUGUESE_BR["INSTALLP_DESC_KUBRIDGE"] =                  "Kernel-user bridge module for PS Vita (Needed for ported MaxPayne game)"
 PORTUGUESE_BR["INSTALLP_DESC_NONPDRM"] =                   "Ignorar a proteção DRM em qualquer conteúdo do PS Vita"
@@ -414,6 +419,8 @@ PORTUGUESE_BR["INSTALLP_DESC_BOOTSPLASH_DONE"] =           "boot_splash.bin FEIT
 PORTUGUESE_BR["INSTALLP_DESC_BOOTSPLASH_FAIL"] =           "boot_splash.bin FALHOU !!!"
 
 --Main
+PORTUGUESE_BR["INSTALLP_DESC_PASTEUNLOCK"] =               "Plugin for PS Vita that unlocks hidden copy/paste feature in system software. To activate copypaste popup press and hold your finger on the text until it zooms in. After that release your finger from the screen and copypaste popup will open."
+PORTUGUESE_BR["INSTALLP_DESC_USBDISABLE"] =                "Disable the annoying 'Connecting' dialog when you connect the vita to a computer. (Q)CMA still work!!"
 PORTUGUESE_BR["INSTALLP_DESC_DENABLER"] =                  "Baixe arquivos através do seu navegador"
 PORTUGUESE_BR["INSTALLP_DESC_NOLOCKSCREEN"] =              "Desativa a tela de bloqueio encontrada no PSVita"
 PORTUGUESE_BR["INSTALLP_DESC_NOTROPHYMSG"] =               "Desativa a mensagem de dica de troféu quando você inicia o aplicativo cujos dados salvos estão vinculados a uma conta diferente. Útil se você muda constantemente de conta"
@@ -441,6 +448,7 @@ PORTUGUESE_BR["INSTALLP_DESC_BOOTSOUND"] =             	   "This plugin can play
 PORTUGUESE_BR["INSTALLP_DESC_QUICKMENU"] =             	   "Quick Menu Plus merges Quick Power, Quick Volume, and Rapidmenu, as well as adding new features. Power off, restart, and standby buttons, Configurable power buttons, Volume slidebar, Faster Quick Menu open time, Custom background styles."
 PORTUGUESE_BR["INSTALLP_DESC_DT2S_STATUSBAR"] =            "(Recommended) This version only works if you touch the very top part of your touchscreen. In SceShell (homescreen) this would be the status bar. This works more similarly to Android's double tap to sleep feature which is used on the status bar."
 PORTUGUESE_BR["INSTALLP_DESC_FRUITPEEL"] =                 "Change lockscreen background wallpaper (PNG with 8 bit palette non-interlaced. Up to a maximum size of 896x448. The file size up to a maximum of 512 KiB)"
+PORTUGUESE_BR["INSTALLP_DESC_QUICKLAUNCHER"] =             "A Plugin to add buttons to quickly launch apps in the quickmenu. Made using QuickMenuReborn."
 
 --ALL
 PORTUGUESE_BR["INSTALLP_DESC_VITANEARESTN"] =              "Simple taiHEN plugin for PlayStation Vita that overrides texture sampling. Forces rendering with point filtering method (Nearest-Neighbor interpolation), instead of linear"
@@ -517,3 +525,4 @@ PORTUGUESE_BR["SYSTEM_ERROR"] =                            "System Error"
 PORTUGUESE_BR["SYSTEM_ERROR_REPO"] =                       "Please report this error to Autoplugin2 Repo at Onelua Github"
 PORTUGUESE_BR["SYSTEM_ERROR_FIX"] =                        "Or fix the error in the file´s text line found at the path mentioned above (ux0:path/file.lua:line number)"
 PORTUGUESE_BR["ERROR_LOADING_FILE"] =                      "Error loading file"
+PORTUGUESE_BR["DOWNLOAD_PLUGINS"] =                        "Downloading database plugins"

@@ -16,7 +16,7 @@ FRENCH["MENU_TITLE"] =                              "AutoPlugin II"
 FRENCH["MENU_PSVITA"] =                             "Plugins PSVita"
 FRENCH["MENU_PSP"] =                                "Plugins PSP pour Adrenaline"
 FRENCH["MENU_EXTRAS"] =                             "Menu Extra"
-FRENCH["MENU_DOWNLOADS"] =                          "Downloads"
+FRENCH["MENU_DOWNLOADS"] =                          "Téléchargement"
 FRENCH["MENU_SETTINGS"] =                           "Paramètres"
 FRENCH["MENU_EXIT"] =                               "Quitter"
 
@@ -36,7 +36,7 @@ FRENCH["MENU_PSVITA_CHECK_ONLINE_PLUGINS_DESC"] =   "Vérifier s'il y a de nouve
 
 --Vita-Nearest-Neighbour
 FRENCH["MENU_PSVITA_INSTALL_NEAREST"] =             "Vita Nearest Neighbour"
-FRENCH["MENU_PSVITA_INSTALL_NEAREST_Q"] =           "\n\nSouhaitez-vous installer ce plugin dans un jeu spécifique ??\n\n Sinon, il sera installé dans TOUTES les sections."
+FRENCH["MENU_PSVITA_INSTALL_NEAREST_Q"] =           "\n\nSouhaitez-vous installer ce plugin pour un jeu spécifique ??\n\n Sinon, il sera installé sur TOUTES les sections."
 
 --P4 Golden HD
 FRENCH["MENU_PSVITA_INSTALL_P4G_HD"] =              "Patch HD du jeu Persona 4 Golden"
@@ -99,7 +99,7 @@ FRENCH["MENU_EXTRAS_CUSTOMBOOTSPLASH_DESC"] =       "Modifier le démarrage de v
 FRENCH["MENU_EXTRAS_CUSTOMWARNING_DESC"] =          "Vous permet de définir un message personnalisé à la place du message d'avertissement d'épilepsie du démarrage de la console"
 FRENCH["MENU_EXTRAS_TRANSPIMPOSE_DESC"] =           "Vous permet de définir le niveau de transparence à utilisé avec le plugin (255 = 0% de transparence, 0 = 100% de transparence). Les valeurs inférieures à 30% ne sont pas recommandées"
 FRENCH["MENU_EXTRAS_INSTALL_ITLSENSO_DESC"] =       "Permet de télécharger et d'installer iTLS-Enso sur votre console, ajoute TLS v1.2 aux consoles compatibles avec Enso (3.60/3.65) , internet requis"
-FRENCH["MENU_EXTRAS_INSTALL_FASTRESET_DESC"] =      "Téléchargez et installez FastReset directement sur votre PSVita"
+FRENCH["MENU_EXTRAS_INSTALL_FASTRESET_DESC"] =      "Téléchargez et installez FastReset directement sur votre PSVita (connexion internet requis)"
 FRENCH["MENU_EXTRAS_INSTALL_VITASHELL_DESC"] =      "Téléchargez et installez Vitashell directement sur votre PSVita (connexion internet requis)"
 FRENCH["MENU_EXTRAS_INSTALL_YAMT_DESC"] =           "Download and install Yamt vpk in your Vita (Yet another (re)mount tool kernel plugin for PS Vita/PS TV)"
 FRENCH["MENU_EXTRAS_INSTALL_SHARKF00D_DESC"] =      "Téléchargez et installez ShaRKF00D directement sur votre PSVita (connexion internet requis)"
@@ -119,7 +119,7 @@ FRENCH["MENU_SETTINGS_CHANGE_FONT"] =               "Police d'écriture"
 FRENCH["MENU_SETTINGS_LANG_ONLINE_DESC"] =          "Télécharger les packs linguistiques disponibles pour AutoPlugin II (internet requis)"
 FRENCH["MENU_SETTINGS_AUTOUPDATE_DESC"] =           "Recevoir ou non les mises à jour automatique de AutoPlugin II"
 FRENCH["MENU_SETTINGS_CHANGE_LANGUAGE_DESC"] =      "Permet de définir la langue par défaut a utilisé avec AutoPlugin II"
-FRENCH["MENU_SETTINGS_CHANGE_FONT_DESC"] =      	"Permet de changer la police d'écriture de AutoPlugin II"
+FRENCH["MENU_SETTINGS_CHANGE_FONT_DESC"] =         	"Permet de changer la police d'écriture de AutoPlugin II"
 
 --Install Plugins
 FRENCH["LIST_PLUGINS"] =                            "Liste des plugins prêts à être installés :"
@@ -262,7 +262,7 @@ FRENCH["TRANSIMPOSE_OSK_TITLE"] =                   "Configuration du plugin"
 FRENCH["TRANSIMPOSE_LEVEL"] =                       "Définition du niveau de transparence en cours..."
 
 --QuickMenu Plus
-FRENCH["QUICKMENU_MENU_TIME"] =                		"Temps de pression du menu rapide"
+FRENCH["QUICKMENU_MENU_TIME"] =                	  	"Temps de pression du menu rapide"
 FRENCH["QUICKMENU_MENU_STANDBYRESTART"] =           "Style de bouton"
 FRENCH["QUICKMENU_MENU_BACKGROUNDSTYLE"] =          "Style de fond d'écran"
 FRENCH["QUICKMENU_MENU_TIME_DESC"] =                "Règle le temps de pression du bouton Quick Menu PS. Temps en microsecondes. Par exemple, mettez 250000 pour 250 millisecondes. Le temps par défaut est de 500 millisecondes"
@@ -342,6 +342,11 @@ FRENCH["TURKISH"] =                                 "TURC"
 FRENCH["INSTALLP_DESC_SD2VITA"] =                   "Plugin Kernel qui monte et ré-dirige automatiquement tout périphérique de stockage vers le répertoire que vous souhaitez (SD2VITA)"
 
 --KERNEL
+FRENCH["INSTALLP_DESC_VSHPATCH"] =                  "Like repatch, but for system applications. this is an emulated VS0, simply put your changes you want to make into ux0:/vshPatch/ and then the changes will be reflected in vs0: partition, via the power of fios2"
+FRENCH["INSTALLP_DESC_8BIVITA"] =                   "Basically just X1Vita but with 8bitdo vid, pid, & mappings. (Compatible 8bitdo controllers: Lite, Pro, Pro+, Pro 2, & Zero 2)"
+FRENCH["INSTALLP_DESC_REAUTH"] =                    "reAuth allows you to use the PlayStation Store and sign in to the PlayStation Network on 3.60-3.65 (Enso is required-PSN spoofing turned on in Henkaku settings, and version spoof set to 3.73)"
+FRENCH["INSTALLP_DESC_DUALSENSE"] =                 "This plugin allows you to use a DualSense controller in the same way as a Dualshock 4 controller on a PlayStation TV, or on a PlayStation Vita with MiniVitaTV"
+FRENCH["INSTALLP_DESC_X1VITA"] =                    "Control your vita with Xbox one controllers! This plugin is not compatible with the other ds vita plugins yet!!!!"
 FRENCH["INSTALLP_DESC_RESAVEDATA"] =                "Plugin that redirects savedata such as games to ux0:resavedata without pfs encryption. (Redirected only if the directory with the title id exists in ux0:resavedata/ like ux0:resavedata/PCSG00001/)"
 FRENCH["INSTALLP_DESC_KUBRIDGE"] =                  "Module du noyau utilisateur pour PS Vita (nécessaire pour le jeu MaxPayne porté sur PSVita)"
 FRENCH["INSTALLP_DESC_NONPDRM"] =                   "Vous permet de contourner la protection DRM sur tout contenu PS Vita"
@@ -414,6 +419,8 @@ FRENCH["INSTALLP_DESC_BOOTSPLASH_DONE"] =           "Installation du boot_splash
 FRENCH["INSTALLP_DESC_BOOTSPLASH_FAIL"] =           "Échec de l'installation du boot_splash.bin !!!"
 
 --Main
+FRENCH["INSTALLP_DESC_PASTEUNLOCK"] =               "Plugin for PS Vita that unlocks hidden copy/paste feature in system software. To activate copypaste popup press and hold your finger on the text until it zooms in. After that release your finger from the screen and copypaste popup will open."
+FRENCH["INSTALLP_DESC_USBDISABLE"] =                "Disable the annoying 'Connecting' dialog when you connect the vita to a computer. (Q)CMA still work!!"
 FRENCH["INSTALLP_DESC_DENABLER"] =                  "Télécharger des fichiers via le navigateur internet de la PSVita"
 FRENCH["INSTALLP_DESC_NOLOCKSCREEN"] =              "Désactive l'écran de verrouillage de la PSVita"
 FRENCH["INSTALLP_DESC_NOTROPHYMSG"] =               "Désactive le message d'indication de trophée lorsque vous lancez une application dont les sauvegardes sont liées à un autre compte. Utile si vous changez constamment de compte"
@@ -436,11 +443,12 @@ FRENCH["INSTALLP_DESC_NOSHAREDFB"] =                "Permet de contourner les pr
 FRENCH["INSTALLP_DESC_TRIMPOSE"] =                  "Plugin pour PS Vita qui rend le menu imposé (celui qui apparaît après une longue pression sur le bouton PS) transparent."
 FRENCH["INSTALLP_DESC_QUIETSHOT"] =                 "Désactive le son de l'obturateur lors de la prise d'une capture d'écran, d'une photo, d'une vidéo ou d'une photo panoramique. Fonctionne à la fois sur la Playstation Vita et la PlayStation TV."
 FRENCH["INSTALLP_DESC_FTPEVERYWHERE"] =             "ftpeverywhere - active un serveur FTP en arrière-plan sur le port 1337."
-FRENCH["INSTALLP_DESC_TROPHYSHOT"] =             	"Tout comme sur la PS4, il fait une capture d'écran chaque fois que l'on déverrouille un trophée."
-FRENCH["INSTALLP_DESC_BOOTSOUND"] =             	"Ce plugin peut lire un fichier WAV comme un jingle de démarrage sur une PSVita/PSTV au démarrage."
-FRENCH["INSTALLP_DESC_QUICKMENU"] =             	"Quick Menu Plus fusionne Quick Power, Quick Volume et Rapidmenu, tout en ajoutant de nouvelles fonctionnalités. Boutons de mise hors tension, de redémarrage et de veille, boutons d'alimentation configurables, barre de défilement du volume, temps d'ouverture plus rapide du menu rapide, styles d'arrière-plan personnalisés."
+FRENCH["INSTALLP_DESC_TROPHYSHOT"] =              	"Tout comme sur la PS4, il fait une capture d'écran chaque fois que l'on déverrouille un trophée."
+FRENCH["INSTALLP_DESC_BOOTSOUND"] =               	"Ce plugin peut lire un fichier WAV comme un jingle de démarrage sur une PSVita/PSTV au démarrage."
+FRENCH["INSTALLP_DESC_QUICKMENU"] =               	"Quick Menu Plus fusionne Quick Power, Quick Volume et Rapidmenu, tout en ajoutant de nouvelles fonctionnalités. Boutons de mise hors tension, de redémarrage et de veille, boutons d'alimentation configurables, barre de défilement du volume, temps d'ouverture plus rapide du menu rapide, styles d'arrière-plan personnalisés."
 FRENCH["INSTALLP_DESC_DT2S_STATUSBAR"] =            "(Recommandé) Cette version ne fonctionne que si vous touchez la partie supérieure de votre écran tactile. Dans SceShell (écran d'accueil), il s'agit de la barre d'état. Cela ressemble plus à la fonction double tap to sleep d'Android qui est utilisée sur la barre d'état."
 FRENCH["INSTALLP_DESC_FRUITPEEL"] =                 "Change le fond d'écran de l'écran de verrouillage (PNG avec une palette de 8 bits non entrelacée. Jusqu'à une taille maximale de 896x448. La taille du fichier peut atteindre un maximum de 512 KiB)"
+FRENCH["INSTALLP_DESC_QUICKLAUNCHER"] =             "A Plugin to add buttons to quickly launch apps in the quickmenu. Made using QuickMenuReborn."
 
 --ALL
 FRENCH["INSTALLP_DESC_VITANEARESTN"] =              "Plugin taiHEN simple pour PlayStation Vita qui remplace l'échantillonnage des textures. Force le rendu avec la méthode de filtrage par points au lieu de linéaire."
@@ -517,3 +525,4 @@ FRENCH["SYSTEM_ERROR"] =                            "Erreur système"
 FRENCH["SYSTEM_ERROR_REPO"] =                       "Veuillez signaler cette erreur sur le GitHub Onelua de Autoplugin II"
 FRENCH["SYSTEM_ERROR_FIX"] =                        "Ou corrigez l'erreur dans la ligne de texte du fichier trouvée au niveau du chemin mentionné ci-dessus (ux0:path/file.lua:line number)"
 FRENCH["ERROR_LOADING_FILE"] =                      "Erreur de chargement du fichier"
+FRENCH["DOWNLOAD_PLUGINS"] =                        "Downloading database plugins"
