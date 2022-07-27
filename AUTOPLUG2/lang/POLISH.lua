@@ -358,6 +358,7 @@ POLISH["INSTALLP_DESC_VITABRIGHT"] =                "Włącza użycie niestandar
 POLISH["INSTALLP_DESC_NOAVLS"] =                    "Wyłącza AVLS na Vicie z wymuszonym AVLS"
 POLISH["INSTALLP_DESC_REPATCHEX"] =                 "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 POLISH["INSTALLP_DESC_REPATCH"] =                   "Umożliwia modyfikowanie zaszyfrowanych gier (podobnych do ux0:patch) i umożliwia załatanie gier,aby ominąć minimalne wymagania softu"
+POLISH["INSTALLP_DESC_PSU"] =                       "Forces pocket station support on all PS1 Classics!"
 POLISH["INSTALLP_DESC_REPATCH271"] =                "Poprzednia wersja rePATCH która rozwiązuje niektóre problemy jakie były w werjsi 3.0"
 POLISH["INSTALLP_DESC_LOLICON"] =                   "Włącza podkręcenia procesora do 500 MHz uruchamiane z kernelem w VitaShell (SELECT + UP włącz menu. SELECT + DOWN zamknij menu)"
 POLISH["INSTALLP_DESC_DS3VITA"] =                   "Kontroluj swoją Vitę z DualShock 3"
