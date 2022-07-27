@@ -358,6 +358,7 @@ SPANISH["INSTALLP_DESC_VITABRIGHT"] =                   "Permite usar una tabla 
 SPANISH["INSTALLP_DESC_NOAVLS"] =                       "Permite desactivar permanentemente AVLS en PS Vitas que no pueden desactivarlas (forzado)"
 SPANISH["INSTALLP_DESC_REPATCHEX"] =                    "Modificación de rePatch que añade soporte para la migración de las carpetas Homebrew app0: y ux0:/data hacia otras particiones, permitiendo asi jugar con datos en diferentes dispositivos de almacenamiento(como ur0 o uma0)"
 SPANISH["INSTALLP_DESC_REPATCH"] =                      "Permite la modificación (modding) de juegos encriptados (similar a ux0:patch) y permite parchear juegos para sobrepasar el firmware mínimo requerido"
+SPANISH["INSTALLP_DESC_PSU"] =                          "Forces pocket station support on all PS1 Classics!"
 SPANISH["INSTALLP_DESC_REPATCH271"] =                   "Versión anterior de rePATCH que resuelve algunos problemas con la versión 3.0"
 SPANISH["INSTALLP_DESC_LOLICON"] =                      "Permite verdadero overclocking (500mHz) a través de un Plugin que corre en el Kernel. Usar con cuidado, ya que puede dañar tu PS Vita debido a las consecuencias de usar overclocking (SELECT + ARRIBA activa el menú. SELECT + ABAJO cierra el menú)"
 SPANISH["INSTALLP_DESC_DS3VITA"] =                      "Controla tu PS Vita con un DualShock 3"
