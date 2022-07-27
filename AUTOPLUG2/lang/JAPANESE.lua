@@ -358,6 +358,7 @@ JAPANESE["INSTALLP_DESC_VITABRIGHT"] =                  "カスタムガンマ�
 JAPANESE["INSTALLP_DESC_NOAVLS"] =                      "AVCSを無効にします"
 JAPANESE["INSTALLP_DESC_REPATCHEX"] =                   "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 JAPANESE["INSTALLP_DESC_REPATCH"] =                     "暗号化されたゲームの改造を許可し（ux0：patchと同様）、ゲームのパッチを適用して低いファームウェアチェックをバイパスします"
+JAPENESE["INSTALLP_DESC_PSU"] =                         "Forces pocket station support on all PS1 Classics!"
 JAPANESE["INSTALLP_DESC_REPATCH271"] =                  "バージョン3.0のいくつかの問題を解決するrePATCHの先行バージョン"
 JAPANESE["INSTALLP_DESC_LOLICON"] =                     "カーネルで実行されるプラグインを介してオーバークロック（500MHz）が可能になります。 オーバークロックを使用した結果、PSVitaが破損する可能性があるため、慎重に使用してください （SELECT + UPメニューを選択します。SELECT + DOWNメニューを閉じます）"
 JAPANESE["INSTALLP_DESC_DS3VITA"] =                     "DualShock 3でPSVitaを制御する"
