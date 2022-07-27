@@ -358,6 +358,7 @@ PORTUGUESE_BR["INSTALLP_DESC_VITABRIGHT"] =                "Permite usar uma tab
 PORTUGUESE_BR["INSTALLP_DESC_NOAVLS"] =                    "Desativa AVLS em AVLS-Forced vitas"
 PORTUGUESE_BR["INSTALLP_DESC_REPATCHEX"] =                 "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 PORTUGUESE_BR["INSTALLP_DESC_REPATCH"] =                   "Permite a modificação de jogos criptografados (semelhante ao ux0:patch) e permite que o patch do jogo desvie dos requisitos mínimos de firmware"
+PORTUGUESE_BR["INSTALLP_DESC_PSU"] =                       "Forces pocket station support on all PS1 Classics!"
 PORTUGUESE_BR["INSTALLP_DESC_REPATCH271"] =                "Versão anterior do rePATCH, que resolve alguns problemas com a versão 3.0"
 PORTUGUESE_BR["INSTALLP_DESC_LOLICON"] =                   "Permite overclocking real de 500 MHz através de um pequeno shell Vita executado a partir do kernel (menu de ativação SELECT+CIMA. Menu de fechamento SELECT+BAIXO)"
 PORTUGUESE_BR["INSTALLP_DESC_DS3VITA"] =                   "Controle o Vita com um DualShock 3"
