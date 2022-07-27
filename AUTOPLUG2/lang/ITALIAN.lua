@@ -358,6 +358,7 @@ ITALIAN["INSTALLP_DESC_VITABRIGHT"] =                   "Plugin che consente di 
 ITALIAN["INSTALLP_DESC_NOAVLS"] =                       "Plugin che disabiliterà permanentemente AVLS su PSVITA"
 ITALIAN["INSTALLP_DESC_REPATCHEX"] =                    "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 ITALIAN["INSTALLP_DESC_REPATCH"] =                      "Consente il modding dei giochi crittografati (simile a ux0:patch) e consente di patchare un gioco per bypassare il requisito minimo del firmware"
+ITALIAN["INSTALLP_DESC_PSU"] =                          "Forces pocket station support on all PS1 Classics!"
 ITALIAN["INSTALLP_DESC_REPATCH271"] =                   "Versione precedente di rePATCH che risolve alcuni problemi con la versione 3.0"
 ITALIAN["INSTALLP_DESC_LOLICON"] =                      "Plugin che consente l'overclocking della PSVITA a 500 MHz (Prestare molta attenzione) (SELECT + TASTO SU abilita menu. SELECT + TASTO GIU chiude il menu)"
 ITALIAN["INSTALLP_DESC_DS3VITA"] =                      "Controlla la tua PSVita utilizzando un DualShock 3"
