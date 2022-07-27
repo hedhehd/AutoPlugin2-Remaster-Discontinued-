@@ -358,6 +358,7 @@ ENGLISH_US["INSTALLP_DESC_VITABRIGHT"] =                "Enables you to use a cu
 ENGLISH_US["INSTALLP_DESC_NOAVLS"] =                    "Disables AVLS on AVLS-Forced vitas"
 ENGLISH_US["INSTALLP_DESC_REPATCHEX"] =                 "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 ENGLISH_US["INSTALLP_DESC_REPATCH"] =                   "Allows modding of encrypted games (similar to ux0:patch) and enables game patching to bypass minimum firmware requirement"
+ENGLISH_US["INSTALLP_DESC_PSU"] =                       "Forces pocketstation support on all PS1 Classics!"
 ENGLISH_US["INSTALLP_DESC_REPATCH271"] =                "Antecedent version of rePATCH which solves some problems with version 3.0"
 ENGLISH_US["INSTALLP_DESC_LOLICON"] =                   "Enables actual overclocking 500 MHz via a small Vita shell ran from kernel (SELECT + UP enable menu. SELECT + DOWN close menu)"
 ENGLISH_US["INSTALLP_DESC_DS3VITA"] =                   "Control your Vita with a DualShock 3"
