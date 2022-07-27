@@ -358,6 +358,7 @@ GERMAN["INSTALLP_DESC_VITABRIGHT"] =                "Ermöglicht es, eine benutz
 GERMAN["INSTALLP_DESC_NOAVLS"] =                    "Das Plugin deaktiviert AVLS dauerhaft"
 GERMAN["INSTALLP_DESC_REPATCHEX"] =                 "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 GERMAN["INSTALLP_DESC_REPATCH"] =                   "Erlaubt das modifizieren von verschlüsselten Spielen ähnlich wie ux0:patch und ermöglicht die Nutzung von 3.61+ Spielen auf 3.60 / 3.65 HEN"
+GERMAN["INSTALLP_DESC_PSU"] =                       "Erzwingt die Unterstützung von PocketStation auf allen PS1 Classics!"
 GERMAN["INSTALLP_DESC_REPATCH271"] =                "Vorherige Version von rePATCH, die einige Probleme von Version 3.0 löst"
 GERMAN["INSTALLP_DESC_LOLICON"] =                   "Ein kleines Menü auf dem Bildschirm, dass vom Kernel läuft. Erlaubt das echte Übertakten der Vita."
 GERMAN["INSTALLP_DESC_DS3VITA"] =                   "Steuere deine PSVita mit einem DualShock 3 Controller"
