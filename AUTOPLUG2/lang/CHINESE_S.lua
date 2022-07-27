@@ -358,6 +358,7 @@ CHINESE_S["INSTALLP_DESC_VITABRIGHT"] =                "使您可以使用自定
 CHINESE_S["INSTALLP_DESC_NOAVLS"] =                    "为强制开启 AVLS 的机型禁用该功能"
 CHINESE_S["INSTALLP_DESC_REPATCHEX"] =                 "rePatch 修改版, 增加支持自制程序 app0: 和 ux0:/data 目录重定向到其他分区, 允许你游玩保存在不同存储器的游戏."
 CHINESE_S["INSTALLP_DESC_REPATCH"] =                   "允许修改加密游戏 (类似于 ux0:patch) 并允许对游戏打补丁绕过最低固件要求"
+CHINESE_S["INSTALLP_DESC_PSU"] =                       "Forces pocket station support on all PS1 Classics!"
 CHINESE_S["INSTALLP_DESC_REPATCH271"] =                "一个 rePATCH 早期版本,可安装此版本以回避 3.0 版本的部分问题"
 CHINESE_S["INSTALLP_DESC_LOLICON"] =                   "通过从内核运行小型 Vita shell 实现超频至 500 MHz (SELECT + UP 启动菜单. SELECT + DOWN 关闭菜单)"
 CHINESE_S["INSTALLP_DESC_DS3VITA"] =                   "使用 DualShock 3 控制PSV"
