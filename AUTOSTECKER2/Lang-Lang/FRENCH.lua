@@ -358,6 +358,7 @@ FRENCH["INSTALLP_DESC_VITABRIGHT"] =                "Vous permet d'utiliser une 
 FRENCH["INSTALLP_DESC_NOAVLS"] =                    "Désactiver l'AVLS sur AVLS-Forcé de la PSVita"
 FRENCH["INSTALLP_DESC_REPATCHEX"] =                 "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 FRENCH["INSTALLP_DESC_REPATCH"] =                   "Permet la modification des jeux cryptés (similaire à ux0:patch) et permet de contourner l'exigence minimale de micro-logiciel"
+FRENCH["INSTALLP_DESC_PSU"] =                       "Forces pocket station support on all PS1 Classics!"
 FRENCH["INSTALLP_DESC_REPATCH271"] =                "Version antérieure de rePATCH qui résout certains problèmes avec la version 3.0"
 FRENCH["INSTALLP_DESC_LOLICON"] =                   "Permet l'overclocking réel de 500 MHz via un petit shell Vita exécuté à partir du Kernel (SELECT + UP : Ouvrir. SELECT + DOWN : Fermer)"
 FRENCH["INSTALLP_DESC_DS3VITA"] =                   "Contrôlez votre PSVita avec un DualShock 3"
