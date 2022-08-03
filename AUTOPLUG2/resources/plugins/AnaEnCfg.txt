@@ -1,1 +1,0 @@
-left=0,n;right=0,n;n
