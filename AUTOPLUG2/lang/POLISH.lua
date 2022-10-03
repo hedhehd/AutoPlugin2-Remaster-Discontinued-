@@ -27,11 +27,13 @@ POLISH["MENU_PSVITA_UNINSTALL_PLUGINS"] =           "Odinstaluj Pluginy"
 POLISH["MENU_PSVITA_INSTALL_SD2VITA"] =             "Zainstaluj plugin SD2VITA"
 POLISH["MENU_PSVITA_CONFIGURE_SD2VITA"] =           "Skonfiguruj plugin SD2VITA"
 POLISH["MENU_PSVITA_CHECK_ONLINE_PLUGINS"] =        "Sprawdz aktualizacje pluginow"
+POLISH["MENU_PSVITA_HD_PATCH"] =                    "HD Patches"
 
+POLISH["MENU_PSVITA_HD_PATCH_DESC"] =               "HD patches some for psvita games"
 POLISH["MENU_PSVITA_INSTALL_PLUGINS_DESC"] =        "Zainstaluj pluginy tworzone przez SCENE PSVITA"
 POLISH["MENU_PSVITA_UNINSTALL_PLUGINS_DESC"] =      "Odinstaluj pluginy łatwo i szybko"
-POLISH["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =        "Zainstaluj plugin dla SD2VITA (StorageMgr v3.2 by CelesteBlue)"
-POLISH["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =         "Skonfiguruj plugin dla SD2VITA (StorageMgr v3.2 by CelesteBlue)"
+POLISH["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =        "Zainstaluj plugin dla SD2VITA (StorageMgr v3.4 by CelesteBlue & Yoti)"
+POLISH["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =         "Skonfiguruj plugin dla SD2VITA (StorageMgr v3.4 by CelesteBlue & Yoti)"
 POLISH["MENU_PSVITA_CHECK_ONLINE_PLUGINS_DESC"] =   "Sprawdz czy nie ma aktualizacji pluginów"
 
 --Vita-Nearest-Neighbour
@@ -56,7 +58,7 @@ POLISH["INSTALL_CATHERINE_HD_TITLE"] =              "Catherine Full Body HD by C
 POLISH["NO_CHATERINE_GAMES"] =                      "Nie znaleziono Catherine Full Body"
 POLISH["INSTALLING_CATHERINE_HD_PATCH"] =           "Instalacja Catherine Full Body HD"
 
-POLISH["INSTRUCTIONS_HD_PATCH"] =                   " 1. Zainstaluj najnowszą wersje pluginu Sharpscale \n\n 2. Włącz 'Odblokowanie bufora ramki' w sharpscale  \n\n 3. Polecany jest Overclocking dla lepszych wrażeń (Rekomendowane pliginy to LOLIcon i lolita444/500)"
+POLISH["INSTRUCTIONS_HD_PATCH"] =                   " 1. Zainstaluj najnowszą wersje pluginu Sharpscale \n\n 2. Włącz 'Odblokowanie bufora ramki' w sharpscale  \n\n 3. Polecany jest Overclocking dla lepszych wrażeń (Rekomendowane pliginy to PSVshell+)"
 
 --Options PSP
 POLISH["MENU_PSP_TITLE"] =                          "Pluginy dla PSP (Adrenaline)"
@@ -70,12 +72,12 @@ POLISH["MENU_PSP_PLUGINS_DESC"] =                   "Zainstaluj pluginy PSP (Adr
 
 --Options Extras
 POLISH["MENU_EXTRAS_PKGJ_TITLE"] =                  "Opcje konfiguracji PKGj"
-POLISH["MENU_EXTRAS_INSTALL_ITLSENSO"] =            "Pobierz i zainstaluj iTLS-Enso vpk"
-POLISH["MENU_EXTRAS_INSTALL_FASTRESET"] =           "Pobierz i zainstaluj FastReset vpk"
-POLISH["MENU_EXTRAS_INSTALL_VITASHELL"] =           "Pobierz i zainstaluj Vitashell vpk"
-POLISH["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "Pobierz i zainstaluj ShaRKF00D vpk"
-POLISH["MENU_EXTRAS_INSTALL_BATTFIX"] =             "Pobierz i zainstaluj batteryFixer vpk"
-POLISH["MENU_EXTRAS_INSTALL_YAMT"] =                "Download and install Yamt vpk"
+POLISH["MENU_EXTRAS_INSTALL_ITLSENSO"] =            "Pobierz i zainstaluj iTLS-Enso"
+POLISH["MENU_EXTRAS_INSTALL_VITASHELL"] =           "Pobierz i zainstaluj Vitashell"
+POLISH["MENU_EXTRAS_INSTALL_VITASHELL2"] =          "Download and install Vitashell (from Yoti)"
+POLISH["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "Pobierz i zainstaluj ShaRKF00D"
+POLISH["MENU_EXTRAS_INSTALL_BATTFIX"] =             "Pobierz i zainstaluj batteryFixer"
+POLISH["MENU_EXTRAS_INSTALL_YAMT"] =                "Download and install Yamt"
 POLISH["MENU_EXTRAS_CONVERT_BOOTSPLASH"] =          "Ustaw własny Bootsplash"
 POLISH["MENU_EXTRAS_CUSTOM_WARNING"] =              "Ustaw własną informacje o epilepsji"
 POLISH["MENU_EXTRAS_TRANSP_IMPOSE"] =               "Ustaw przezroczyste tło"
@@ -99,8 +101,8 @@ POLISH["MENU_EXTRAS_CUSTOMBOOTSPLASH_DESC"] =       "Umożliwia ustawienie włas
 POLISH["MENU_EXTRAS_CUSTOMWARNING_DESC"] =          "Pozwala ustawić własny komunikat o epilepsji, podczas odpalania konsoli z Enso"
 POLISH["MENU_EXTRAS_TRANSPIMPOSE_DESC"] =           "Pozwala ustawić poziom przezroczystości (255 = 0% przezroczystości, 0 = 100% przezroczystości) wartości poniżej 30 ae nie jest zalecana"
 POLISH["MENU_EXTRAS_INSTALL_ITLSENSO_DESC"] =       "Umożliwia pobranie i zainstalowanie iTLS-Enso vpk na twojej Vicie (Dodaj TLS v1.2 do urządzenia z Enso)"
-POLISH["MENU_EXTRAS_INSTALL_FASTRESET_DESC"] =      "Pobierz i zainstaluj FastReset vpk w swoim Vita"
 POLISH["MENU_EXTRAS_INSTALL_VITASHELL_DESC"] =      "Pobierz i zainstaluj Vitashell vpk in your Vita"
+POLISH["MENU_EXTRAS_INSTALL_VITASHELL2_DESC"] =     "Download and install Vitashell vpk in your Vita (From Yoti github)"
 POLISH["MENU_EXTRAS_INSTALL_YAMT_DESC"] =           "Download and install Yamt vpk in your Vita: Yet another (re)mount tool kernel plugin for PS Vita/PS TV (Requires Enso, compatible ONLY with firmware 3.60 and 3.65)"
 POLISH["MENU_EXTRAS_INSTALL_SHARKF00D_DESC"] =      "Pobierz i zainstaluj ShaRKF00D vpk in your Vita"
 POLISH["MENU_EXTRAS_INSTALL_DESC_BATTFIX"] =        "Umożliwia pobranie i zainstalowanie PSP2-batteryFixer vpk na twojej Vicie (Usówa większość problemów z baterią)"
@@ -115,7 +117,9 @@ POLISH["MENU_SETTINGS_LANG_ONLINE"] =               "Pobierz język"
 POLISH["MENU_SETTINGS_ENABLE_AUTOUPDATE"] =         "Włącz AutoUpdate: "
 POLISH["MENU_SETTINGS_CHANGE_LANGUAGE"] =           "Wybierz język"
 POLISH["MENU_SETTINGS_CHANGE_FONT"] =               "Wybierz czcionkę"
+POLISH["MENU_SETTINGS_AUTO_FIX"] =                  "Tai Config Auto: "
 
+POLISH["MENU_SETTINGS_AUTO_FIX_DESC"] =             "Enable/Disable The Tai Config Auto"
 POLISH["MENU_SETTINGS_LANG_ONLINE_DESC"] =          "Pobierz jezyk do AutoPlugin II"
 POLISH["MENU_SETTINGS_AUTOUPDATE_DESC"] =           "Włącz autoaktualizacje"
 POLISH["MENU_SETTINGS_CHANGE_LANGUAGE_DESC"] =      "Wybierz domyślny język dla AutoPlugin II"
@@ -199,6 +203,7 @@ POLISH["UPDATE_CHECK_DB"] =                         "Sprawdzanie bazy danych"
 POLISH["UPDATE_PLUGIN"] =                           "Aktualizowanie pluginu"
 POLISH["UPDATE_ERROR_DB"] =                         "Błąd pobierania db.lua"
 POLISH["UPDATE_NO_NEWS"] =                          "Wszystkie pluginy zostały zaktualizowane"
+POLISH["UPDATE_QUESTION"] =                         "is installed\n\nWould you like to update it?"
 
 --npdrm free
 POLISH["NPDRMFREE_TITLE"] =                         "Zainstaluj plugin NPDRM FREE od qwikrazor87"
@@ -358,7 +363,6 @@ POLISH["INSTALLP_DESC_VITABRIGHT"] =                "Włącza użycie niestandar
 POLISH["INSTALLP_DESC_NOAVLS"] =                    "Wyłącza AVLS na Vicie z wymuszonym AVLS"
 POLISH["INSTALLP_DESC_REPATCHEX"] =                 "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 POLISH["INSTALLP_DESC_REPATCH"] =                   "Umożliwia modyfikowanie zaszyfrowanych gier (podobnych do ux0:patch) i umożliwia załatanie gier,aby ominąć minimalne wymagania softu"
-POLISH["INSTALLP_DESC_PSU"] =                       "Forces pocket station support on all PS1 Classics!"
 POLISH["INSTALLP_DESC_REPATCH271"] =                "Poprzednia wersja rePATCH która rozwiązuje niektóre problemy jakie były w werjsi 3.0"
 POLISH["INSTALLP_DESC_LOLICON"] =                   "Włącza podkręcenia procesora do 500 MHz uruchamiane z kernelem w VitaShell (SELECT + UP włącz menu. SELECT + DOWN zamknij menu)"
 POLISH["INSTALLP_DESC_DS3VITA"] =                   "Kontroluj swoją Vitę z DualShock 3"
@@ -397,6 +401,8 @@ POLISH["INSTALLP_DESC_DERIN"] =                     "Wyświetla zegary OSD na ek
 POLISH["INSTALLP_DESC_LOLITA"] =                    "Ustawia zegary Vity na maksimum i wyłącza ograniczenia, takie jak niska jasność i brak Wi-Fi w intensywnych grach."
 POLISH["INSTALLP_DESC_LOLITA4"] =                   "Ustawia zegary Vity na 444 MHz i wyłącza ograniczenia, takie jak niska jasność i brak Wi-Fi w intensywnych grach."
 POLISH["INSTALLP_DESC_PSVSHELL"] =                  "Kolejna wtyczka do podkręcania procesora (SELECT + UP i SELECT + DOWN do przełączania między 3 trybami GUI)"
+POLISH["INSTALLP_DESC_PSVSHELLPLUS"] =              "Advanced Overclock&Info plugin for PS Vita. Provides fully GPU accelerated HUD, accurate memory and FPS tracking with full Quick Menu integration."
+POLISH["INSTALLP_DESC_POCKETSTATION"] =             "Forces pocketstation support on all PS1 Classics"
 POLISH["INSTALLP_DESC_SYSCALL6"] =                  "Narzędzie do łatania syscall 6 na Playstation Vita na lv0 (SELF/RVK checks)"
 POLISH["INSTALLP_DESC_MONAURAL"] =                  "Mono audio i balans kanałów dla Playstation Vita (Potrzebny MonauralConfig.vpk)"
 POLISH["INSTALLP_DESC_MUPREMIUM"] =                 "Włącza muzykę w tle podczas korzystania z aplikacji i grania w gry."
@@ -450,6 +456,7 @@ POLISH["INSTALLP_DESC_QUICKMENU"] =             	"Quick Menu Plus łączy w sobi
 POLISH["INSTALLP_DESC_DT2S_STATUSBAR"] =            "(Rekomendowane) Ta wersja działa tylko wtedy, gdy dotkniesz górnej części ekranu dotykowego. W SceShell (pulpit) był by to pasek stanu. Działa to podobnie do funkcji podwójnego stuknięcia w trybie uśpienia systemu Android, która jest na pasku stanu."
 POLISH["INSTALLP_DESC_FRUITPEEL"] =                 "Change lockscreen background wallpaper (PNG with 8 bit palette non-interlaced. Up to a maximum size of 896x448. The file size up to a maximum of 512 KiB)"
 POLISH["INSTALLP_DESC_QUICKLAUNCHER"] =             "A Plugin to add buttons to quickly launch apps in the quickmenu. Made using QuickMenuReborn."
+POLISH["INSTALLP_DESC_WAVE"] =                      "A PS Vita home background wave add plugin."
 
 --ALL
 POLISH["INSTALLP_DESC_VITANEARESTN"] =              "Simple taiHEN plugin for PlayStation Vita that overrides texture sampling. Forces rendering with point filtering method (Nearest-Neighbor interpolation), instead of linear"
@@ -485,6 +492,7 @@ POLISH["INSTALLP_DESC_SHARPSCALE"] =                "Natywna rodzielczość HDMI
 POLISH["INSTALLP_DESC_RAPIDMENU"] =                 "Skróć czas otwierania szybkiego menu z 2 sekund do 200 milisekund."
 POLISH["INSTALLP_DESC_SCOREHAX"] =                  "Instant pro w każdej grze!"
 POLISH["INSTALLP_DESC_HONRIPPER"] =                 "HonRipper to plugin do aplikacji PS Vita Sony Reader (PCSC80012), która służy do wyodrębniania zawartości formatu książki Sony .MNH (Marlin-Hon)."
+POLISH["INSTALLP_DESC_HIDEAP"] =                    "Hides ux0:/app/AUTOPLUG2 from any app its loaded into"
 
 --*NPXS10013
 POLISH["INSTALLP_DESC_PS4LINK"] =                   "Wtyczka taiHEN, która pozwala wymusić preferowaną konfigurację przycisku gry zdalnej"

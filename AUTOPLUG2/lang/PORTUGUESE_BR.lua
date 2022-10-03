@@ -27,11 +27,13 @@ PORTUGUESE_BR["MENU_PSVITA_UNINSTALL_PLUGINS"] =           "Desinstalar plugins"
 PORTUGUESE_BR["MENU_PSVITA_INSTALL_SD2VITA"] =             "Instalar plugin para SD2VITA"
 PORTUGUESE_BR["MENU_PSVITA_CONFIGURE_SD2VITA"] =           "Configurar plugin for SD2VITA"
 PORTUGUESE_BR["MENU_PSVITA_CHECK_ONLINE_PLUGINS"] =        "Checar por atualizações de plugin"
+PORTUGUESE_BR["MENU_PSVITA_HD_PATCH"] =                    "HD Patches"
 
+PORTUGUESE_BR["MENU_PSVITA_HD_PATCH_DESC"] =               "HD patches some for psvita games"
 PORTUGUESE_BR["MENU_PSVITA_INSTALL_PLUGINS_DESC"] =        "Instale os plugins mais úteis criados por SCENE-PSVITA"
 PORTUGUESE_BR["MENU_PSVITA_UNINSTALL_PLUGINS_DESC"] =      "Desinstalar plugins"
-PORTUGUESE_BR["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =        "Instalar plugin SD2VITA (StorageMgr v3.2 por CelesteBlue)"
-PORTUGUESE_BR["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =         "Configurar plugin SD2VITA (StorageMgr v3.2 por CelesteBlue)"
+PORTUGUESE_BR["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =        "Instalar plugin SD2VITA (StorageMgr v3.4 por CelesteBlue & Yoti)"
+PORTUGUESE_BR["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =         "Configurar plugin SD2VITA (StorageMgr v3.4 por CelesteBlue & Yoti)"
 PORTUGUESE_BR["MENU_PSVITA_CHECK_ONLINE_PLUGINS_DESC"] =   "Verificar online se há novos plugins atualizados"
 
 --Vita-Nearest-Neighbour
@@ -56,7 +58,7 @@ PORTUGUESE_BR["INSTALL_CATHERINE_HD_TITLE"] =              "Catherine Full Body 
 PORTUGUESE_BR["NO_CHATERINE_GAMES"] =                      "Catherine Full Body not found"
 PORTUGUESE_BR["INSTALLING_CATHERINE_HD_PATCH"] =           "Installing Catherine Full Body HD"
 
-PORTUGUESE_BR["INSTRUCTIONS_HD_PATCH"] =                   " 1. Install the latest version of Sharpscale \n\n 2. Turn on 'Unlock framebuffer size' in the sharpscale config app \n\n 3. Overclocking is required for good performance (we recommend LOLIcon or lolita444/500)"
+PORTUGUESE_BR["INSTRUCTIONS_HD_PATCH"] =                   " 1. Install the latest version of Sharpscale \n\n 2. Turn on 'Unlock framebuffer size' in the sharpscale config app \n\n 3. Overclocking is required for good performance (we recommend PSVshell+)"
 
 --Options PSP
 PORTUGUESE_BR["MENU_PSP_TITLE"] =                          "PSP (Adrenaline) Plugins"
@@ -71,11 +73,11 @@ PORTUGUESE_BR["MENU_PSP_PLUGINS_DESC"] =                   "Instalar plugins PSP
 --Options Extras
 PORTUGUESE_BR["MENU_EXTRAS_PKGJ_TITLE"] =                  "Configurar opções do PKGj"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_ITLSENSO"] =            "Baixar e instalar o vpk iTLS-Enso"
-PORTUGUESE_BR["MENU_EXTRAS_INSTALL_FASTRESET"] =           "Baixar e instalar o vpk FastReset"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_BATTFIX"] =             "Baixar e instalar o vpk batteryFixer"
-PORTUGUESE_BR["MENU_EXTRAS_INSTALL_VITASHELL"] =           "Download and install Vitashell vpk"
-PORTUGUESE_BR["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "Download and install ShaRKF00D vpk"
-PORTUGUESE_BR["MENU_EXTRAS_INSTALL_YAMT"] =                "Download and install Yamt vpk"
+PORTUGUESE_BR["MENU_EXTRAS_INSTALL_VITASHELL"] =           "Download and install Vitashell"
+PORTUGUESE_BR["MENU_EXTRAS_INSTALL_VITASHELL2"] =          "Download and install Vitashell (from Yoti)"
+PORTUGUESE_BR["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "Download and install ShaRKF00D"
+PORTUGUESE_BR["MENU_EXTRAS_INSTALL_YAMT"] =                "Download and install Yamt"
 PORTUGUESE_BR["MENU_EXTRAS_CONVERT_BOOTSPLASH"] =          "Definir splash de inicialização customizada"
 PORTUGUESE_BR["MENU_EXTRAS_CUSTOM_WARNING"] =              "Definir mensagem de aviso personalizada"
 PORTUGUESE_BR["MENU_EXTRAS_TRANSP_IMPOSE"] =               "Definir imposição transparente"
@@ -100,7 +102,7 @@ PORTUGUESE_BR["MENU_EXTRAS_CUSTOMWARNING_DESC"] =          "Definir uma mensagem
 PORTUGUESE_BR["MENU_EXTRAS_TRANSPIMPOSE_DESC"] =           "Definir valore de nível de transparência (255 = 0% Transparente, 0 = 100% Transparente) Valores abaixo de 30 não são recomendados"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_ITLSENSO_DESC"] =       "Baixar e instalar o vpk iTLS-Enso no Vita (Adiciona TLS v1.2 aos dispositivos com Enso habilitado)"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_VITASHELL_DESC"] =      "Download and install Vitashell vpk in your Vita"
-PORTUGUESE_BR["MENU_EXTRAS_INSTALL_FASTRESET_DESC"} =      "Download and install FastReset vpk in your Vita"
+PORTUGUESE_BR["MENU_EXTRAS_INSTALL_VITASHELL2_DESC"] =     "Download and install Vitashell vpk in your Vita (From Yoti github)"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_YAMT_DESC"] =           "Download and install Yamt vpk in your Vita: Yet another (re)mount tool kernel plugin for PS Vita/PS TV (Requires Enso, compatible ONLY with firmware 3.60 and 3.65)"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_SHARKF00D_DESC"] =      "Download and install ShaRKF00D vpk in your Vita"
 PORTUGUESE_BR["MENU_EXTRAS_INSTALL_DESC_BATTFIX"] =        "Baixar e instalar o vpk PSP2-batteryFixer no Vita (Corrige a maioria dos problemas relacionados à bateria do PSVita)"
@@ -115,7 +117,9 @@ PORTUGUESE_BR["MENU_SETTINGS_LANG_ONLINE"] =               "Baixar idiomas dispo
 PORTUGUESE_BR["MENU_SETTINGS_ENABLE_AUTOUPDATE"] =         "Ativar atualização automática: "
 PORTUGUESE_BR["MENU_SETTINGS_CHANGE_LANGUAGE"] =           "Alterar idioma"
 PORTUGUESE_BR["MENU_SETTINGS_CHANGE_FONT"] =               "Alterar fonte"
+PORTUGUESE_BR["MENU_SETTINGS_AUTO_FIX"] =                  "Tai Config Auto: "
 
+PORTUGUESE_BR["MENU_SETTINGS_AUTO_FIX_DESC"] =             "Enable/Disable The Tai Config Auto"
 PORTUGUESE_BR["MENU_SETTINGS_LANG_ONLINE_DESC"] =          "Baixar os pacotes de idiomas disponíveis para AutoPlugin II"
 PORTUGUESE_BR["MENU_SETTINGS_AUTOUPDATE_DESC"] =           "Atualizar plugins/idiomas automaticamente ao iniciar"
 PORTUGUESE_BR["MENU_SETTINGS_CHANGE_LANGUAGE_DESC"] =      "Alterar e definir o idiomar como padrão para AutoPlugin II"
@@ -199,6 +203,7 @@ PORTUGUESE_BR["UPDATE_CHECK_DB"] =                         "Verificando banco de
 PORTUGUESE_BR["UPDATE_PLUGIN"] =                           "Plugin atulizado"
 PORTUGUESE_BR["UPDATE_ERROR_DB"] =                         "Erro ao baixar arquivo db.lua"
 PORTUGUESE_BR["UPDATE_NO_NEWS"] =                          "Todos os plugins estão atualizados"
+PORTUGUESE_BR["UPDATE_QUESTION"] =                         "is installed\n\nWould you like to update it?"
 
 --npdrm free
 PORTUGUESE_BR["NPDRMFREE_TITLE"] =                         "Instalar puglin NPDRM FREE do qwikrazor87"
@@ -358,7 +363,6 @@ PORTUGUESE_BR["INSTALLP_DESC_VITABRIGHT"] =                "Permite usar uma tab
 PORTUGUESE_BR["INSTALLP_DESC_NOAVLS"] =                    "Desativa AVLS em AVLS-Forced vitas"
 PORTUGUESE_BR["INSTALLP_DESC_REPATCHEX"] =                 "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 PORTUGUESE_BR["INSTALLP_DESC_REPATCH"] =                   "Permite a modificação de jogos criptografados (semelhante ao ux0:patch) e permite que o patch do jogo desvie dos requisitos mínimos de firmware"
-PORTUGUESE_BR["INSTALLP_DESC_PSU"] =                       "Forces pocket station support on all PS1 Classics!"
 PORTUGUESE_BR["INSTALLP_DESC_REPATCH271"] =                "Versão anterior do rePATCH, que resolve alguns problemas com a versão 3.0"
 PORTUGUESE_BR["INSTALLP_DESC_LOLICON"] =                   "Permite overclocking real de 500 MHz através de um pequeno shell Vita executado a partir do kernel (menu de ativação SELECT+CIMA. Menu de fechamento SELECT+BAIXO)"
 PORTUGUESE_BR["INSTALLP_DESC_DS3VITA"] =                   "Controle o Vita com um DualShock 3"
@@ -397,6 +401,8 @@ PORTUGUESE_BR["INSTALLP_DESC_DERIN"] =                     "Vita apresenta displ
 PORTUGUESE_BR["INSTALLP_DESC_LOLITA"] =                    "Ajusta a frequência do processador Vita ao máximo o tempo todo e desativa limitações como baixo brilho e sem Wi-Fi em jogos intensivos."
 PORTUGUESE_BR["INSTALLP_DESC_LOLITA4"] =                   "Define a frequência do processador do Vita para 444 mhz o tempo todo e desativa limitações como baixo brilho e sem Wi-Fi em jogos intensivos."
 PORTUGUESE_BR["INSTALLP_DESC_PSVSHELL"] =                  "Outro plugin de overclock (SELECT+CIMA ou SELECT+BAIXO para alternar entre três modos da GUI)"
+PORTUGUESE_BR["INSTALLP_DESC_PSVSHELLPLUS"] =              "Advanced Overclock&Info plugin for PS Vita. Provides fully GPU accelerated HUD, accurate memory and FPS tracking with full Quick Menu integration."
+PORTUGUESE_BR["INSTALLP_DESC_POCKETSTATION"] =             "Forces pocketstation support on all PS1 Classics"
 PORTUGUESE_BR["INSTALLP_DESC_SYSCALL6"] =                  "Uma ferramenta que corrige o syscall 6 do lv0 do secure_kernel do Playstation Vita (Verifica SELF/RVK)"
 PORTUGUESE_BR["INSTALLP_DESC_MONAURAL"] =                  "Equilíbrio de áudio e canal mono para o Playstation Vita (requer MonauralConfig.vpk)"
 PORTUGUESE_BR["INSTALLP_DESC_MUPREMIUM"] =                 "Ativar reprodução de música de fundo para qualquer jogo ou aplicativo."
@@ -450,6 +456,7 @@ PORTUGUESE_BR["INSTALLP_DESC_QUICKMENU"] =             	   "Quick Menu Plus merg
 PORTUGUESE_BR["INSTALLP_DESC_DT2S_STATUSBAR"] =            "(Recommended) This version only works if you touch the very top part of your touchscreen. In SceShell (homescreen) this would be the status bar. This works more similarly to Android's double tap to sleep feature which is used on the status bar."
 PORTUGUESE_BR["INSTALLP_DESC_FRUITPEEL"] =                 "Change lockscreen background wallpaper (PNG with 8 bit palette non-interlaced. Up to a maximum size of 896x448. The file size up to a maximum of 512 KiB)"
 PORTUGUESE_BR["INSTALLP_DESC_QUICKLAUNCHER"] =             "A Plugin to add buttons to quickly launch apps in the quickmenu. Made using QuickMenuReborn."
+PORTUGUESE_BR["INSTALLP_DESC_WAVE"] =                      "A PS Vita home background wave add plugin."
 
 --ALL
 PORTUGUESE_BR["INSTALLP_DESC_VITANEARESTN"] =              "Simple taiHEN plugin for PlayStation Vita that overrides texture sampling. Forces rendering with point filtering method (Nearest-Neighbor interpolation), instead of linear"
@@ -485,6 +492,7 @@ PORTUGUESE_BR["INSTALLP_DESC_SHARPSCALE"] =                "Saída nativa de 960
 PORTUGUESE_BR["INSTALLP_DESC_RAPIDMENU"] =                 "Reduce quick menu open time from 2 seconds to 200 milliseconds."
 PORTUGUESE_BR["INSTALLP_DESC_SCOREHAX"] =                  "Instant pro at any game!"
 PORTUGUESE_BR["INSTALLP_DESC_HONRIPPER"] =                 "HonRipper is the plugin for PS Vita Sony Reader application (PCSC80012) that is designed to extract contents of Sony's .MNH (Marlin-Hon) book format."
+PORTUGUESE_BR["INSTALLP_DESC_HIDEAP"] =                    "Hides ux0:/app/AUTOPLUG2 from any app its loaded into"
 
 --*NPXS10013
 PORTUGUESE_BR["INSTALLP_DESC_PS4LINK"] =                   "Plugin taiHEN que permite forçar a configuração preferida do botão Remote Play"

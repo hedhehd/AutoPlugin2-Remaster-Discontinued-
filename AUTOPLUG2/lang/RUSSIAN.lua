@@ -27,11 +27,13 @@ RUSSIAN["MENU_PSVITA_UNINSTALL_PLUGINS"] =           "Удалить плаги�
 RUSSIAN["MENU_PSVITA_INSTALL_SD2VITA"] =             "Установить плагин для SD2VITA"
 RUSSIAN["MENU_PSVITA_CONFIGURE_SD2VITA"] =           "Настроить плагин для SD2VITA"
 RUSSIAN["MENU_PSVITA_CHECK_ONLINE_PLUGINS"] =        "Проверить обновления плагинов"
+RUSSIAN["MENU_PSVITA_HD_PATCH"] =                    "HD Patches"
 
+RUSSIAN["MENU_PSVITA_HD_PATCH_DESC"] =               "HD patches some for psvita games"
 RUSSIAN["MENU_PSVITA_INSTALL_PLUGINS_DESC"] =        "Установить наиболее полезные плагины, созданные сценой PS Vita"
 RUSSIAN["MENU_PSVITA_UNINSTALL_PLUGINS_DESC"] =      "Легко и просто удалить установленные плагины"
-RUSSIAN["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =        "Установить плагин для SD2VITA (StorageMgr v3.2 от CelesteBlue)"
-RUSSIAN["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =         "Настроить плагин для SD2VITA (StorageMgr v3.2 от CelesteBlue)"
+RUSSIAN["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =        "Установить плагин для SD2VITA (StorageMgr v3.4 от CelesteBlue & Yoti)"
+RUSSIAN["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =         "Настроить плагин для SD2VITA (StorageMgr v3.4 от CelesteBlue & Yoti)"
 RUSSIAN["MENU_PSVITA_CHECK_ONLINE_PLUGINS_DESC"] =   "Запустить проверку наличия обновлённых версий плагинов"
 
 --Vita-Nearest-Neighbour
@@ -70,12 +72,12 @@ RUSSIAN["MENU_PSP_PLUGINS_DESC"] =                   "Установить PSP �
 
 --Options Extras
 RUSSIAN["MENU_EXTRAS_PKGJ_TITLE"] =                  "Изменение различных настроек PKGj"
-RUSSIAN["MENU_EXTRAS_INSTALL_ITLSENSO"] =            "Загрузить и установить iTLS-Enso vpk"
-RUSSIAN["MENU_EXTRAS_INSTALL_FASTRESET"] =           "Загрузить и установить FastReset vpk"
-RUSSIAN["MENU_EXTRAS_INSTALL_VITASHELL"] =           "Загрузить и установить VitaShell vpk"
-RUSSIAN["MENU_EXTRAS_INSTALL_BATTFIX"] =             "Загрузить и установить batteryFixer vpk"
-RUSSIAN["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "Загрузить и установить ShaRKF00D vpk"
-RUSSIAN["MENU_EXTRAS_INSTALL_YAMT"] =                "Загрузить и установить YAMT vpk"
+RUSSIAN["MENU_EXTRAS_INSTALL_ITLSENSO"] =            "Загрузить и установить iTLS-Enso"
+RUSSIAN["MENU_EXTRAS_INSTALL_VITASHELL"] =           "Загрузить и установить VitaShell"
+RUSSIAN["MENU_EXTRAS_INSTALL_VITASHELL2"] =          "Загрузить и установить VitaShell(от Yoti)"
+RUSSIAN["MENU_EXTRAS_INSTALL_BATTFIX"] =             "Загрузить и установить batteryFixer"
+RUSSIAN["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "Загрузить и установить ShaRKF00D"
+RUSSIAN["MENU_EXTRAS_INSTALL_YAMT"] =                "Загрузить и установить YAMT"
 RUSSIAN["MENU_EXTRAS_CONVERT_BOOTSPLASH"] =          "Установить своё загрузочное изображение (Boot Splash)"
 RUSSIAN["MENU_EXTRAS_CUSTOM_WARNING"] =              "Установить свой загрузочный текст (Warning Message)"
 RUSSIAN["MENU_EXTRAS_TRANSP_IMPOSE"] =               "Настроить прозрачность фона быстрого меню PS Vita"
@@ -89,7 +91,7 @@ RUSSIAN["MENU_EXTRAS_PSV_DLC_TSV"] =                 "PSV дополнения"
 RUSSIAN["MENU_EXTRAS_PSV_DEMOS_TSV"] =               "PSV демо-версии"
 RUSSIAN["MENU_EXTRAS_PSV_THEMES_TSV"] =              "PSV темы"
 RUSSIAN["MENU_EXTRAS_PSM_GAMES_TSV"] =               "PSM игры"
-RUSSIAN["MENU_EXTRAS_PSX_GAMES_TSV"] =               "PSX игры"
+RUSSIAN["MENU_EXTRAS_PSX_GAMES_TSV"] =               "PS1 игры"
 RUSSIAN["MENU_EXTRAS_PSP_GAMES_TSV"] =               "PSP игры"
 RUSSIAN["MENU_EXTRAS_PSP_DLC_TSV"] =                 "PSP дополнения"
 
@@ -100,7 +102,7 @@ RUSSIAN["MENU_EXTRAS_CUSTOMWARNING_DESC"] =          "Позволяет выб�
 RUSSIAN["MENU_EXTRAS_TRANSPIMPOSE_DESC"] =           "Позволяет задать уровень прозрачности быстрого меню, где значение 255 это нет прозрачности, а 0 это полная прозрачность (не рекомендуется использовать значения меньше 30)"
 RUSSIAN["MENU_EXTRAS_INSTALL_ITLSENSO_DESC"] =       "Позволяет загрузить и установить приложение iTLS-Enso, которое добавляет поддержку шифрования TLS 1.2 (нужен enso)"
 RUSSIAN["MENU_EXTRAS_INSTALL_VITASHELL_DESC"] =      "Позволяет загрузить и установить приложение VitaShell"
-RUSSIAN["MENU_EXTRAS_INSTALL_FASTRESET_DESC"] =      "Позволяет загрузить и установить приложение FastReset"
+RUSSIAN["MENU_EXTRAS_INSTALL_VITASHELL2_DESC"] =     "Позволяет загрузить и установить приложение VitaShell (версия от Yoti)"
 RUSSIAN["MENU_EXTRAS_INSTALL_YAMT_DESC"] =           "Позволяет загрузить и установить приложение YAMT для управление плагином монтирования разделов (нужны enso и ПО 3.60/3.65)"
 RUSSIAN["MENU_EXTRAS_INSTALL_SHARKF00D_DESC"] =      "Позволяет загрузить и установить приложение ShaRKF00D"
 RUSSIAN["MENU_EXTRAS_INSTALL_DESC_BATTFIX"] =        "Позволяет загрузить и установить приложение PSP2-batteryFixer, рекомендуемое к использованию при проблемах с аккумулятором"
@@ -115,7 +117,9 @@ RUSSIAN["MENU_SETTINGS_LANG_ONLINE"] =               "Загрузить обн�
 RUSSIAN["MENU_SETTINGS_ENABLE_AUTOUPDATE"] =         "Включить автоообновление: "
 RUSSIAN["MENU_SETTINGS_CHANGE_LANGUAGE"] =           "Выбрать язык приложения"
 RUSSIAN["MENU_SETTINGS_CHANGE_FONT"] =               "Выбрать шрифт приложения"
+RUSSIAN["MENU_SETTINGS_AUTO_FIX"] =                  "Tai Config Auto: "
 
+RUSSIAN["MENU_SETTINGS_AUTO_FIX_DESC"] =             "Enable/Disable The Tai Config Auto"
 RUSSIAN["MENU_SETTINGS_LANG_ONLINE_DESC"] =          "Загрузить новые и обновлённые переводы для AutoPlugin II"
 RUSSIAN["MENU_SETTINGS_AUTOUPDATE_DESC"] =           "Включить автоматическое обновление программы (да/нет)"
 RUSSIAN["MENU_SETTINGS_CHANGE_LANGUAGE_DESC"] =      "Выбрать и применить язык перевода AutoPlugin II"
@@ -199,6 +203,7 @@ RUSSIAN["UPDATE_CHECK_DB"] =                         "Проверка базы 
 RUSSIAN["UPDATE_PLUGIN"] =                           "Обновлён плагин"
 RUSSIAN["UPDATE_ERROR_DB"] =                         "Ошибка при загрузке db.lua"
 RUSSIAN["UPDATE_NO_NEWS"] =                          "Все плагины уже обновлены"
+RUSSIAN["UPDATE_QUESTION"] =                         "is installed\n\nWould you like to update it?"
 
 --npdrm free
 RUSSIAN["NPDRMFREE_TITLE"] =                         "Плагин npdrm_free от qwikrazor87"
@@ -358,7 +363,6 @@ RUSSIAN["INSTALLP_DESC_VITABRIGHT"] =                "Позволяет исп�
 RUSSIAN["INSTALLP_DESC_NOAVLS"] =                    "Отключает AVLS на системах с принудительным включением AVLS"
 RUSSIAN["INSTALLP_DESC_REPATCHEX"] =                 "Новая версия rePatch, которая добавляет возможность переноса содержимого папки ux0:data, используемой для хранения файлов хоумбрю"
 RUSSIAN["INSTALLP_DESC_REPATCH"] =                   "Позволяет применять модификации и переводы для PS Vita игр"
-RUSSIAN["INSTALLP_DESC_PSU"] =                       "Forces pocket station support on all PS1 Classics!"
 RUSSIAN["INSTALLP_DESC_REPATCH271"] =                "Предыдущая версия плагина для тех, у кого проблемы с новой"
 RUSSIAN["INSTALLP_DESC_LOLICON"] =                   "Позволяет включить разгон до 500 МГц (SELECT+UP показать меню/SELECT+DOWN скрыть меню)"
 RUSSIAN["INSTALLP_DESC_DS3VITA"] =                   "Управляйте вашей PS Vita при помощи DualShock 3"
@@ -397,6 +401,8 @@ RUSSIAN["INSTALLP_DESC_DERIN"] =                     "Показ таблицы 
 RUSSIAN["INSTALLP_DESC_LOLITA"] =                    "Постоянный разгон до 500 МГц и обход ограничений, связанных с экономией заряда аккумулятора"
 RUSSIAN["INSTALLP_DESC_LOLITA4"] =                   "Постоянный разгон до 444 МГц и обход ограничений, связанных с экономией заряда аккумулятора"
 RUSSIAN["INSTALLP_DESC_PSVSHELL"] =                  "Ещё один плагин для управления разгоном (SELECT+UP или SELECT+DOWN для переключения режимов отображения)"
+RUSSIAN["INSTALLP_DESC_PSVSHELLPLUS"] =              "Функциональный плагин для вывода информации и управления разгоном, который встраивается в быстрое меню"
+RUSSIAN["INSTALLP_DESC_POCKETSTATION"] =             "Поддержка функции PocketStation для всех игр PS1 Classic"
 RUSSIAN["INSTALLP_DESC_SYSCALL6"] =                  "Плагин отключает проверку неподдерживаемых исполняемых файлов на лету"
 RUSSIAN["INSTALLP_DESC_MONAURAL"] =                  "Переключение звука в моно режим и выбор баланса каналов стерео (требуется MonauralConfig.vpk)"
 RUSSIAN["INSTALLP_DESC_MUPREMIUM"] =                 "Поддержка фонового воспроизведения музыки одновременно с играми"
@@ -450,6 +456,7 @@ RUSSIAN["INSTALLP_DESC_QUICKMENU"] =             	 "Quick Menu Plus объеди
 RUSSIAN["INSTALLP_DESC_DT2S_STATUSBAR"] =            "(Рекомендуем) Эта версия срабатывает только при касании верхнего края экрана. В SceShell (домашний экран) это область панели информации. Таким образом, работа оказывается максимально схожей с тем, как это сделано на Андроид."
 RUSSIAN["INSTALLP_DESC_FRUITPEEL"] =                 "Плагин позволяет заменить фоновое изображение экрана блокировки (требования: формат PNG/8 bit/non-interlaced, разрешение не больше 896x448, размер файла не больше 512 КБ)"
 RUSSIAN["INSTALLP_DESC_QUICKLAUNCHER"] =             "Плагин для добавления кнопок запуска программ в быстрое меню PS Vita (основан на QuickMenuReborn)"
+RUSSIAN["INSTALLP_DESC_WAVE"] =                      "A PS Vita home background wave add plugin."
 
 --ALL
 RUSSIAN["INSTALLP_DESC_VITANEARESTN"] =              "Несложный плагин, который перехватывает механизм обработки текстур и позволяет интерполировать их методом ближайшего соседа (ступенчатой интерполяцией)"
@@ -485,6 +492,7 @@ RUSSIAN["INSTALLP_DESC_SHARPSCALE"] =                "Вывод родного 
 RUSSIAN["INSTALLP_DESC_RAPIDMENU"] =                 "Ускорение открытия быстрого меню в 10 раз (200 мсек. вместо 2 сек.)"
 RUSSIAN["INSTALLP_DESC_SCOREHAX"] =                  "Стань профи в любой игре без особого труда!"
 RUSSIAN["INSTALLP_DESC_HONRIPPER"] =                 "Плагин HonRipper разработан для извлечения содержимого книг в формате .MNH (Marlin-Hon), который используется в приложении PS Vita Sony Reader (PCSC80012)"
+RUSSIAN["INSTALLP_DESC_HIDEAP"] =                    "Hides ux0:/app/AUTOPLUG2 from any app its loaded into"
 
 --*NPXS10013
 RUSSIAN["INSTALLP_DESC_PS4LINK"] =                   "Плагин для принудительного выбора раскладки управления при использовании функции удалённой игры"

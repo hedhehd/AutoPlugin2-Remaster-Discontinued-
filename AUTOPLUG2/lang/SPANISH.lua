@@ -27,11 +27,13 @@ SPANISH["MENU_PSVITA_UNINSTALL_PLUGINS"] =              "Desinstalar Plugins"
 SPANISH["MENU_PSVITA_INSTALL_SD2VITA"] =                "Instalar Plugin SD2VITA"
 SPANISH["MENU_PSVITA_CONFIGURE_SD2VITA"] =              "Configura el Plugin para SD2VITA"
 SPANISH["MENU_PSVITA_CHECK_ONLINE_PLUGINS"] =           "Buscar Actualizaciones de Plugins"
+SPANISH["MENU_PSVITA_HD_PATCH"] =                       "HD Patches"
 
+SPANISH["MENU_PSVITA_HD_PATCH_DESC"] =                  "HD patches some for psvita games"
 SPANISH["MENU_PSVITA_INSTALL_PLUGINS_DESC"] =           "Instala los Plugins más útiles desarrollados por la Scene de PSVita"
 SPANISH["MENU_PSVITA_UNINSTALL_PLUGINS_DESC"] =         "Desinstala Plugins de manera fácil y sencilla"
-SPANISH["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =           "Instala el Plugin SD2VITA (StorageMgr v3.2 de CelesteBlue)"
-SPANISH["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =            "Configura el Plugin SD2VITA (StorageMgr v3.2 de CelesteBlue)"
+SPANISH["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =           "Instala el Plugin SD2VITA (StorageMgr v3.4 por CelesteBlue & Yoti)"
+SPANISH["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =            "Configura el Plugin SD2VITA (StorageMgr v3.4 por CelesteBlue & Yoti)"
 SPANISH["MENU_PSVITA_CHECK_ONLINE_PLUGINS_DESC"] =      "Comprueba si hay alguna actualización para los Plugins"
 
 --Vita-Nearest-Neighbour
@@ -56,7 +58,7 @@ SPANISH["INSTALL_CATHERINE_HD_TITLE"] =                 "Catherine Full Body HD 
 SPANISH["NO_CHATERINE_GAMES"] =                         "Catherine Full Body no se ha encontrado"
 SPANISH["INSTALLING_CATHERINE_HD_PATCH"] =              "Instalando Catherine Full Body HD"
 
-SPANISH["INSTRUCTIONS_HD_PATCH"] =                      " 1. Instalar la última version de Sharpscale \n\n 2. Activa 'Unlock framebuffer size' en la app de configuraciones de Sharpscale \n\n 3. Se requiere Overclocking para un buen rendimiento (recomendamos LOLIcon o lolita444/500)"
+SPANISH["INSTRUCTIONS_HD_PATCH"] =                      " 1. Instalar la última version de Sharpscale \n\n 2. Activa 'Unlock framebuffer size' en la app de configuraciones de Sharpscale \n\n 3. Se requiere Overclocking para un buen rendimiento (recomendamos PSVshell+)"
 
 --Options PSP
 SPANISH["MENU_PSP_TITLE"] =                             "Plugins para PSP (Adrenaline)"
@@ -70,12 +72,12 @@ SPANISH["MENU_PSP_PLUGINS_DESC"] =                      "Instala Plugins de PSP 
 
 --Options Extras
 SPANISH["MENU_EXTRAS_PKGJ_TITLE"] =                     "Opciones para Config de PKGj"
-SPANISH["MENU_EXTRAS_INSTALL_ITLSENSO"] =               "Descargar e instalar el vpk de iTLS-Enso vpk"
-SPANISH["MENU_EXTRAS_INSTALL_VITASHELL"] =              "Descargar e instalar Vitashell vpk"
-SPANISH["MENU_EXTRAS_INSTALL_FASTRESET"] =              "Descargar e instalar FastReset vpk"
-SPSPANISH["MENU_EXTRAS_INSTALL_SHARKF00D"] =            "Descargar e instalar ShaRKF00D vpk"
-SPANISH["MENU_EXTRAS_INSTALL_BATTFIX"] =                "Descargar e instalar BatteryFixer vpk"
-SPANISH["MENU_EXTRAS_INSTALL_YAMT"] =                   "Descargar e instalar Yamt vpk"
+SPANISH["MENU_EXTRAS_INSTALL_ITLSENSO"] =               "Descargar e instalar iTLS-Enso"
+SPANISH["MENU_EXTRAS_INSTALL_VITASHELL"] =              "Descargar e instalar Vitashell"
+SPANISH["MENU_EXTRAS_INSTALL_VITASHELL2"] =             "DEscargar e instalar Vitashell (from Yoti)"
+SPANISH["MENU_EXTRAS_INSTALL_SHARKF00D"] =              "Descargar e instalar ShaRKF00D"
+SPANISH["MENU_EXTRAS_INSTALL_BATTFIX"] =                "Descargar e instalar BatteryFixer"
+SPANISH["MENU_EXTRAS_INSTALL_YAMT"] =                   "Descargar e instalar Yamt"
 SPANISH["MENU_EXTRAS_CONVERT_BOOTSPLASH"] =             "Establecer una imagen Custom Boot Splash"
 SPANISH["MENU_EXTRAS_CUSTOM_WARNING"] =                 "Establecer un mensaje para Custom Warning Message"
 SPANISH["MENU_EXTRAS_TRANSP_IMPOSE"] =                  "Establecer Nivel de Transparencia"
@@ -100,7 +102,7 @@ SPANISH["MENU_EXTRAS_CUSTOMWARNING_DESC"] =             "Permite establecer un m
 SPANISH["MENU_EXTRAS_TRANSPIMPOSE_DESC"] =              "Permite establecer el Nivel de Transparencia (255 = 0% Transparencia, 0 = 100% Transparencia). No esta recomendado usar valores bajo 30"
 SPANISH["MENU_EXTRAS_INSTALL_ITLSENSO_DESC"] =          "Permite descargar e instalar el vpk de iTLS-Enso en tu PS Vita (Añade TLS v1.2 a los dispositivos con Enso)"
 SPANISH["MENU_EXTRAS_INSTALL_VITASHELL_DESC"] =         "Permite descargar e instalar Vitashell en tu PS Vita"
-SPANISH["MENU_EXTRAS_INSTALL_FASTRESET_DESC"] =         "Permite descargar e instalar FastReset en tu PS Vita"
+SPANISH["MENU_EXTRAS_INSTALL_VITASHELL2_DESC"] =        "Permite descargar e instalar Vitashell en tu PS Vita (desde el Github de Yoti)"
 SPANISH["MENU_EXTRAS_INSTALL_YAMT_DESC"] =              "Permite descargar e instalar Yamt en tu PS Vita: Yet another (re)mount tool. Plugin de kernel para PS Vita/PS TV que permite remontar particiones (Requiere Enso, compatible SOLO con firmware 3.60 y 3.65)"
 SPANISH["MENU_EXTRAS_INSTALL_SHARKF00D_DESC"] =         "Permite descargar e instalar ShaRKF00D en tu PS Vita"
 SPANISH["MENU_EXTRAS_INSTALL_DESC_BATTFIX"] =           "Permite descargar e instalar el vpk de PSP2-batteryFixer en tu PS Vita (Corrige la mayoría de los problemas relacionados con la batería de PS Vita)"
@@ -115,7 +117,9 @@ SPANISH["MENU_SETTINGS_LANG_ONLINE"] =                  "Descargar Idiomas Dispo
 SPANISH["MENU_SETTINGS_ENABLE_AUTOUPDATE"] =            "Habilitar AutoUpdate: "
 SPANISH["MENU_SETTINGS_CHANGE_LANGUAGE"] =              "Cambiar Idioma"
 SPANISH["MENU_SETTINGS_CHANGE_FONT"] =                  "Cambiar font"
+SPANISH["MENU_SETTINGS_AUTO_FIX"] =                     "Tai Config Auto: "
 
+SPANISH["MENU_SETTINGS_AUTO_FIX_DESC"] =                "Enable/Disable The Tai Config Auto"
 SPANISH["MENU_SETTINGS_LANG_ONLINE_DESC"] =             "Descarga paquetes de idiomas disponibles para AutoPlugin II"
 SPANISH["MENU_SETTINGS_AUTOUPDATE_DESC"] =              "Habilitar AutoUpdate Si/No"
 SPANISH["MENU_SETTINGS_CHANGE_LANGUAGE_DESC"] =         "Permite cambiar y ajustar el idioma por defecto de AutoPlugin II"
@@ -199,6 +203,7 @@ SPANISH["UPDATE_CHECK_DB"] =                            "Comprobando Base de Dat
 SPANISH["UPDATE_PLUGIN"] =                              "Plugin Actualizado"
 SPANISH["UPDATE_ERROR_DB"] =                            "Error al descargar db.lua"
 SPANISH["UPDATE_NO_NEWS"] =                             "Todos los plugins están actualizados"
+SPANISH["UPDATE_QUESTION"] =                            "is installed\n\nWould you like to update it?"
 
 --npdrm free
 SPANISH["NPDRMFREE_TITLE"] =                            "Instalar plugin NPDRM FREE de qwikrazor87"
@@ -358,7 +363,6 @@ SPANISH["INSTALLP_DESC_VITABRIGHT"] =                   "Permite usar una tabla 
 SPANISH["INSTALLP_DESC_NOAVLS"] =                       "Permite desactivar permanentemente AVLS en PS Vitas que no pueden desactivarlas (forzado)"
 SPANISH["INSTALLP_DESC_REPATCHEX"] =                    "Modificación de rePatch que añade soporte para la migración de las carpetas Homebrew app0: y ux0:/data hacia otras particiones, permitiendo asi jugar con datos en diferentes dispositivos de almacenamiento(como ur0 o uma0)"
 SPANISH["INSTALLP_DESC_REPATCH"] =                      "Permite la modificación (modding) de juegos encriptados (similar a ux0:patch) y permite parchear juegos para sobrepasar el firmware mínimo requerido"
-SPANISH["INSTALLP_DESC_PSU"] =                          "Forces pocket station support on all PS1 Classics!"
 SPANISH["INSTALLP_DESC_REPATCH271"] =                   "Versión anterior de rePATCH que resuelve algunos problemas con la versión 3.0"
 SPANISH["INSTALLP_DESC_LOLICON"] =                      "Permite verdadero overclocking (500mHz) a través de un Plugin que corre en el Kernel. Usar con cuidado, ya que puede dañar tu PS Vita debido a las consecuencias de usar overclocking (SELECT + ARRIBA activa el menú. SELECT + ABAJO cierra el menú)"
 SPANISH["INSTALLP_DESC_DS3VITA"] =                      "Controla tu PS Vita con un DualShock 3"
@@ -397,6 +401,8 @@ SPANISH["INSTALLP_DESC_DERIN"] =                        "Visualización en panta
 SPANISH["INSTALLP_DESC_LOLITA"] =                       "Ajusta el reloj de la PS Vita (procesador) al máximo todo el tiempo, y desactiva las limitaciones como brillo bajo y no Wi-Fi en juegos con más requerimientos"
 SPANISH["INSTALLP_DESC_LOLITA4"] =                      "Ajusta el reloj de la PS Vita (procesador) a 444mHz todo el tiempo, y desactiva las limitaciones como brillo bajo y no Wi-Fi en juegos con más requerimientos"
 SPANISH["INSTALLP_DESC_PSVSHELL"] =                     "Otro Plugin más de overclocking (SELECT + ARRIBA o SELECT + ABAJO para cambiar entre los 3 modos de interfaces)"
+SPANISH["INSTALLP_DESC_PSVSHELLPLUS"] =                 "Advanced Overclock&Info plugin for PS Vita. Provides fully GPU accelerated HUD, accurate memory and FPS tracking with full Quick Menu integration."
+SPANISH["INSTALLP_DESC_POCKETSTATION"] =                "Forces pocketstation support on all PS1 Classics"
 SPANISH["INSTALLP_DESC_SYSCALL6"] =                     "Una herramienta que parcha los checkeos y llamadas (SELF/RVK checks) de las syscall 6 del secure_kernel del lv0 de la PS Vita (Básicamente desactiva limitaciones impuestas en las aplicaciones, como software mínimo, reemplazando ReFood, y usar la app de PSM Dev)"
 SPANISH["INSTALLP_DESC_MONAURAL"] =                     "Permite Canal de audio Mono (un parlante o el mismo audio por ambos parlantes) y balance de canales de audio para la PS Vita (requiere tener instalado MonauralConfig.vpk)"
 SPANISH["INSTALLP_DESC_MUPREMIUM"] =                    "Permite escuchar música de fondo (a través de la app oficial) en cualquier juego o aplicación"
@@ -450,6 +456,7 @@ SPANISH["INSTALLP_DESC_QUICKMENU"] =             	    "Quick Menu Plus fusiona l
 SPANISH["INSTALLP_DESC_DT2S_STATUSBAR"] =               "(Recomendada) Esta versión solo funciona si tocas la parte superior de la pantalla. En SceShell (Pantalla de Inicio) esta zona seria la barra de estado (donde sale la hora y batería). Funciona de manera similar a la función de 'Doble toque para suspender' de Android, la cual es usada en la barra de estado"
 SPANISH["INSTALLP_DESC_FRUITPEEL"] =                    "Cambia el wallpaper de fondo de la pantalla de bloqueo (la que queda una vez se 'pela' la imagen de bloqueo) (formato PNG con paleta de 8 bit no entrelazada. Resolución máxima de 896x448. Peso máximo de 512 Kb)"
 SPANISH["INSTALLP_DESC_QUICKLAUNCHER"] =                "A Plugin to add buttons to quickly launch apps in the quickmenu. Made using QuickMenuReborn."
+SPANISH["INSTALLP_DESC_WAVE"] =                         "A PS Vita home background wave add plugin."
 
 --ALL
 SPANISH["INSTALLP_DESC_VITANEARESTN"] =                 "Sencillo Plugin de taiHEN para PS Vita que sobreescribe el muestreo de texturas (las distintas formas de mostrar texturas). Fuerza el renderizado, en vez de usar filtrado Lineal, lo hace con el método Point Filtering (Filtrado por Punto. Interpolación por Nearest-Neighbor o Vecino más Cercano en Español)"
@@ -485,6 +492,7 @@ SPANISH["INSTALLP_DESC_SHARPSCALE"] =                   "Salida Nativa de 960x54
 SPANISH["INSTALLP_DESC_RAPIDMENU"] =                    "Reduce el tiempo que toma abrir el Menú Rápido de 2 segundos a 200 milisegundos (0.2 segundos)"
 SPANISH["INSTALLP_DESC_SCOREHAX"] =                     "¡Vuelvete un pro al instante en cualquier juego!(Modifica Puntajes online en juegos)"
 SPANISH["INSTALLP_DESC_HONRIPPER"] =                    "HonRipper es un plugin para la aplicación Sony Reader en PS Vita (PCSC80012) diseñada para dumpear (extraer) el contenido de los libros en el formato .MNH (Marlin-Hon) de Sony"
+SPANISH["INSTALLP_DESC_HIDEAP"] =                       "Hides ux0:/app/AUTOPLUG2 from any app its loaded into"
 
 --*NPXS10013
 SPANISH["INSTALLP_DESC_PS4LINK"] =                      "Plugin de taiHEN que permite forzar la configuración de botones preferida en Juego Remoto (PS4)"

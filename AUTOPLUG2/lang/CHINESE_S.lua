@@ -27,11 +27,13 @@ CHINESE_S["MENU_PSVITA_UNINSTALL_PLUGINS"] =           "卸载插件"
 CHINESE_S["MENU_PSVITA_INSTALL_SD2VITA"] =             "安装 SD2VITA 插件"
 CHINESE_S["MENU_PSVITA_CONFIGURE_SD2VITA"] =           "配置 SD2VITA 插件"
 CHINESE_S["MENU_PSVITA_CHECK_ONLINE_PLUGINS"] =        "检查插件更新"
+CHINESE_S["MENU_PSVITA_HD_PATCH"] =                    "HD Patches"
 
+CHINESE_S["MENU_PSVITA_HD_PATCH_DESC"] =               "HD patches some for psvita games"
 CHINESE_S["MENU_PSVITA_INSTALL_PLUGINS_DESC"] =        "安装为 PSVita 环境开发的实用插件"
 CHINESE_S["MENU_PSVITA_UNINSTALL_PLUGINS_DESC"] =      "卸载插件"
-CHINESE_S["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =        "安装 SD2VITA 插件 (StorageMgr v3.2,由 CelesteBlue 开发)"
-CHINESE_S["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =         "配置 SD2VITA 插件 (StorageMgr v3.2,由 CelesteBlue 开发)"
+CHINESE_S["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =        "安装 SD2VITA 插件 (StorageMgr v3.4 by CelesteBlue & Yoti)"
+CHINESE_S["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =         "配置 SD2VITA 插件 (StorageMgr v3.4 by CelesteBlue & Yoti)"
 CHINESE_S["MENU_PSVITA_CHECK_ONLINE_PLUGINS_DESC"] =   "在线检查插件更新"
 
 --Vita-Nearest-Neighbour
@@ -56,7 +58,7 @@ CHINESE_S["INSTALL_CATHERINE_HD_TITLE"] =              "凯瑟琳浓郁口感高
 CHINESE_S["NO_CHATERINE_GAMES"] =                      "找不到 凯瑟琳浓郁口感 游戏本体"
 CHINESE_S["INSTALLING_CATHERINE_HD_PATCH"] =           "正在安装 凯瑟琳浓郁口感 高清补丁"
 
-CHINESE_S["INSTRUCTIONS_HD_PATCH"] =                   " 1. 安装最新版本的 Sharpscale \n\n 2. 在 sharpscale 配置程序中启用 '解锁帧缓冲区大小 Unlock framebuffer size' 选项 \n\n 3. 需要超频以获得良好的性能 (我们推荐使用 LOLIcon 或者 lolita444/500)"
+CHINESE_S["INSTRUCTIONS_HD_PATCH"] =                   " 1. 安装最新版本的 Sharpscale \n\n 2. 在 sharpscale 配置程序中启用 '解锁帧缓冲区大小 Unlock framebuffer size' 选项 \n\n 3. 需要超频以获得良好的性能 (我们推荐使用 PSVshell+)"
 
 --Options PSP
 CHINESE_S["MENU_PSP_TITLE"] =                          "PSP (Adrenaline) 插件"
@@ -70,12 +72,12 @@ CHINESE_S["MENU_PSP_PLUGINS_DESC"] =                   "为 Adrenaline 安装PSP
 
 --Options Extras
 CHINESE_S["MENU_EXTRAS_PKGJ_TITLE"] =                  "PKGj 配置选项"
-CHINESE_S["MENU_EXTRAS_INSTALL_ITLSENSO"] =            "下载并安装 iTLS-Enso vpk"
-CHINESE_S["MENU_EXTRAS_INSTALL_FASTRESET"] =           "下载并安装 FastReset vpk"
-CHINESE_S["MENU_EXTRAS_INSTALL_VITASHELL"] =           "下载并安装 Vitashell vpk"
-CHINESE_S["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "下载并安装 ShaRKF00D vpk"
-CHINESE_S["MENU_EXTRAS_INSTALL_BATTFIX"] =             "下载并安装 batteryFixer vpk"
-CHINESE_S["MENU_EXTRAS_INSTALL_YAMT"] =                "下载并安装 Yamt vpk"
+CHINESE_S["MENU_EXTRAS_INSTALL_ITLSENSO"] =            "下载并安装 iTLS-Enso"
+CHINESE_S["MENU_EXTRAS_INSTALL_VITASHELL"] =           "下载并安装 Vitashell"
+CHINESE_S["MENU_EXTRAS_INSTALL_VITASHELL2"] =          "下载并安装 Vitashell (Yoti 版本)"
+CHINESE_S["MENU_EXTRAS_INSTALL_SHARKF00D"] =           "下载并安装 ShaRKF00D"
+CHINESE_S["MENU_EXTRAS_INSTALL_BATTFIX"] =             "下载并安装 batteryFixer"
+CHINESE_S["MENU_EXTRAS_INSTALL_YAMT"] =                "下载并安装 Yamt"
 CHINESE_S["MENU_EXTRAS_CONVERT_BOOTSPLASH"] =          "设置自定义启动画面"
 CHINESE_S["MENU_EXTRAS_CUSTOM_WARNING"] =              "设置自定义警告消息"
 CHINESE_S["MENU_EXTRAS_TRANSP_IMPOSE"] =               "设置强制菜单透明度"
@@ -99,8 +101,8 @@ CHINESE_S["MENU_EXTRAS_CUSTOMBOOTSPLASH_DESC"] =       "设置自定义图片作
 CHINESE_S["MENU_EXTRAS_CUSTOMWARNING_DESC"] =          "当使用 ENSO 系统开机时,设置自定义警告消息替代癫痫警告"
 CHINESE_S["MENU_EXTRAS_TRANSPIMPOSE_DESC"] =           "允许您设置透明度 (255 = 0% 透明度, 0 = 100% 透明度) 不推荐设置透明度参数小于 30"
 CHINESE_S["MENU_EXTRAS_INSTALL_ITLSENSO_DESC"] =       "下载并安装 iTLS-Enso vpk 到您的 Vita (为启用 Enso 的设备添加 TLS v1.2 支持)"
-CHINESE_S["MENU_EXTRAS_INSTALL_FASTRESET_DESC"] =      "下载并安装 FastReset vpk 到您的 Vita"
 CHINESE_S["MENU_EXTRAS_INSTALL_VITASHELL_DESC"] =      "下载并安装 Vitashell vpk 到您的 Vita"
+CHINESE_S["MENU_EXTRAS_INSTALL_VITASHELL2_DESC"] =     "下载并安装 Vitashell vpk 到您的 Vita (从 Yoti 的github仓库)"
 CHINESE_S["MENU_EXTRAS_INSTALL_YAMT_DESC"] =           "下载并安装 Yamt vpk 到您的 Vita: 又一款适用于 PS Vita/PS TV 的重新挂载分区的内核插件 (依赖 Enso, 仅兼容 3.60 以及 3.65 系统版本)"
 CHINESE_S["MENU_EXTRAS_INSTALL_SHARKF00D_DESC"] =      "下载并安装 ShaRKF00D vpk 到您的 Vita"
 CHINESE_S["MENU_EXTRAS_INSTALL_DESC_BATTFIX"] =        "下载并安装 PSP2-batteryFixer vpk 到您的 Vita (解决大多数 PSVita 的电池相关问题)"
@@ -115,7 +117,9 @@ CHINESE_S["MENU_SETTINGS_LANG_ONLINE"] =               "下载可用语言"
 CHINESE_S["MENU_SETTINGS_ENABLE_AUTOUPDATE"] =         "启用自动更新: "
 CHINESE_S["MENU_SETTINGS_CHANGE_LANGUAGE"] =           "更改语言"
 CHINESE_S["MENU_SETTINGS_CHANGE_FONT"] =               "更换字体"
+CHINESE_S["MENU_SETTINGS_AUTO_FIX"] =                  "Tai Config Auto: "
 
+CHINESE_S["MENU_SETTINGS_AUTO_FIX_DESC"] =             "Enable/Disable The Tai Config Auto"
 CHINESE_S["MENU_SETTINGS_LANG_ONLINE_DESC"] =          "为 AutoPlugin II 下载可用语言包"
 CHINESE_S["MENU_SETTINGS_AUTOUPDATE_DESC"] =           "启动时自动更新插件及语言包"
 CHINESE_S["MENU_SETTINGS_CHANGE_LANGUAGE_DESC"] =      "变更及设置 AutoPlugin II 默认语言"
@@ -199,6 +203,7 @@ CHINESE_S["UPDATE_CHECK_DB"] =                         "正在检查数据库"
 CHINESE_S["UPDATE_PLUGIN"] =                           "已更新插件"
 CHINESE_S["UPDATE_ERROR_DB"] =                         "db.lua 下载出错"
 CHINESE_S["UPDATE_NO_NEWS"] =                          "所有插件均已更新"
+CHINESE_S["UPDATE_QUESTION"] =                         "is installed\n\nWould you like to update it?"
 
 --npdrm free
 CHINESE_S["NPDRMFREE_TITLE"] =                         "安装 NPDRM FREE 插件 (由 qwikrazor87 开发)"
@@ -358,7 +363,6 @@ CHINESE_S["INSTALLP_DESC_VITABRIGHT"] =                "使您可以使用自定
 CHINESE_S["INSTALLP_DESC_NOAVLS"] =                    "为强制开启 AVLS 的机型禁用该功能"
 CHINESE_S["INSTALLP_DESC_REPATCHEX"] =                 "rePatch 修改版, 增加支持自制程序 app0: 和 ux0:/data 目录重定向到其他分区, 允许你游玩保存在不同存储器的游戏."
 CHINESE_S["INSTALLP_DESC_REPATCH"] =                   "允许修改加密游戏 (类似于 ux0:patch) 并允许对游戏打补丁绕过最低固件要求"
-CHINESE_S["INSTALLP_DESC_PSU"] =                       "Forces pocket station support on all PS1 Classics!"
 CHINESE_S["INSTALLP_DESC_REPATCH271"] =                "一个 rePATCH 早期版本,可安装此版本以回避 3.0 版本的部分问题"
 CHINESE_S["INSTALLP_DESC_LOLICON"] =                   "通过从内核运行小型 Vita shell 实现超频至 500 MHz (SELECT + UP 启动菜单. SELECT + DOWN 关闭菜单)"
 CHINESE_S["INSTALLP_DESC_DS3VITA"] =                   "使用 DualShock 3 控制PSV"
@@ -397,6 +401,8 @@ CHINESE_S["INSTALLP_DESC_DERIN"] =                     "Vita 频率 OSD 屏显�
 CHINESE_S["INSTALLP_DESC_LOLITA"] =                    "将您的 Vita 频率一直设置为最大,并禁用密集型游戏中的限制,例如低亮度和断开 Wi-Fi 连接."
 CHINESE_S["INSTALLP_DESC_LOLITA4"] =                   "将您的 Vita 频率一直设置为 444 mhz 并禁用密集型游戏中的限制,例如低亮度和断开 Wi-Fi 连接."
 CHINESE_S["INSTALLP_DESC_PSVSHELL"] =                  "又一个超频插件 (SELECT + UP 或 SELECT + DOWN 实现在3个 GUI 模式间切换)"
+CHINESE_S["INSTALLP_DESC_PSVSHELLPLUS"] =              "适用于 PS Vita 的高级超频&信息展示插件. 提供完整的 GPU 加速 HUD, 精确的内存信息和 FPS 跟踪以及完整的快速菜单集成."
+CHINESE_S["INSTALLP_DESC_POCKETSTATION"] =             "在所有 PS1 Classics 游戏上启用 pocketstation 支持"
 CHINESE_S["INSTALLP_DESC_SYSCALL6"] =                  "修补 Playstation Vita 0级的 secure_kernel 系统调用6 (SELF / RVK校验) 的工具,用于运行高版本游戏及已下架应用等."
 CHINESE_S["INSTALLP_DESC_MONAURAL"] =                  "PSVita 的单声道音频和声道平衡 (依赖 MonauralConfig.vpk)"
 CHINESE_S["INSTALLP_DESC_MUPREMIUM"] =                 "为任何游戏或应用程序启用音乐后台播放."
@@ -449,7 +455,8 @@ CHINESE_S["INSTALLP_DESC_BOOTSOUND"] =             	   "该插件可以在启动
 CHINESE_S["INSTALLP_DESC_QUICKMENU"] =             	   "Quick Menu Plus 合并了 Quick Power, Quick Volume 和 Rapidmenu 的功能, 并添加了新特性. 关闭电源, 重启和待机按钮, 可配置的电源按钮, 音量滑块, 提高快捷菜单开启速度, 自定义背景样式."
 CHINESE_S["INSTALLP_DESC_DT2S_STATUSBAR"] =            "(推荐) 双击休眠插件. 仅当点击屏幕顶端两次时可触发休眠. 在 SceShell (主屏) 则为双击状态栏. 这与 Android 上使用的状态栏双击睡眠功能更相似."
 CHINESE_S["INSTALLP_DESC_FRUITPEEL"] =                 "修改锁屏背景壁纸 (具有8位调色板的非隔行扫描PNG. 最大支持分辨率为 896x448. 文件大小最大支持到 512 KiB)"
-CHINESE_S["INSTALLP_DESC_QUICKLAUNCHER"] =             "A Plugin to add buttons to quickly launch apps in the quickmenu. Made using QuickMenuReborn."
+CHINESE_S["INSTALLP_DESC_QUICKLAUNCHER"] =             "在快速菜单增加按钮, 用于快速启动应用程序. 本插件使用 QuickMenuReborn 制作."
+CHINESE_S["INSTALLP_DESC_WAVE"] =                      "A PS Vita home background wave add plugin."
 
 --ALL
 CHINESE_S["INSTALLP_DESC_VITANEARESTN"] =              "适用于 PS Vita 的简单的大变革插件, 用于覆盖纹理采样. 强制使用点过滤方法(最近邻插值)而非线性渲染."
@@ -485,6 +492,7 @@ CHINESE_S["INSTALLP_DESC_SHARPSCALE"] =                "此插件令 PSTV 支持
 CHINESE_S["INSTALLP_DESC_RAPIDMENU"] =                 "将快捷菜单的打开时间从2秒减少到200毫秒."
 CHINESE_S["INSTALLP_DESC_SCOREHAX"] =                  "游戏得分修改器.在任何游戏中瞬间变身职业玩家!"
 CHINESE_S["INSTALLP_DESC_HONRIPPER"] =                 "HonRipper 是一款适用于 PS Vita 索尼阅读器程序 (PCSC80012) 的插件, 它被设计用于提取索尼 .MNH (Marlin-Hon) 格式图书的内容."
+CHINESE_S["INSTALLP_DESC_HIDEAP"] =                    "Hides ux0:/app/AUTOPLUG2 from any app its loaded into"
 
 --*NPXS10013
 CHINESE_S["INSTALLP_DESC_PS4LINK"] =                   "大变革插件,用于强制选择喜欢的遥控操作按键配置方案"

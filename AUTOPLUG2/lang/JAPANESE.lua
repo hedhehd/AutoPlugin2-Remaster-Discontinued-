@@ -27,11 +27,13 @@ JAPANESE["MENU_PSVITA_UNINSTALL_PLUGINS"] =             "プラグインのア�
 JAPANESE["MENU_PSVITA_INSTALL_SD2VITA"] =               "SD2VITAプラグインのインストール"
 JAPANESE["MENU_PSVITA_CONFIGURE_SD2VITA"] =             "SD2VITAプラグインの構成"
 JAPANESE["MENU_PSVITA_CHECK_ONLINE_PLUGINS"] =          "プラグインの更新を確認"
+JAPANESE["MENU_PSVITA_HD_PATCH"] =                      "HD Patches"
 
+JAPANESE["MENU_PSVITA_HD_PATCH_DESC"] =                 "HD patches some for psvita games"
 JAPANESE["MENU_PSVITA_INSTALL_PLUGINS_DESC"] =          "SCENE-PSVITAによって作成された最も便利なプラグインをインストールします"
 JAPANESE["MENU_PSVITA_UNINSTALL_PLUGINS_DESC"] =        "プラグインを簡単かつ容易にアンインストールします"
-JAPANESE["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =          "SD2VITAプラグインのインストール (StorageMgr v3.2 by CelesteBlue)"
-JAPANESE["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =           "SD2VITAプラグインの構成 (StorageMgr v3.2 by CelesteBlue)"
+JAPANESE["MENU_PSVITA_INSTALL_SD2VITA_DESC"] =          "SD2VITAプラグインのインストール (StorageMgr v3.4 by CelesteBlue & Yoti)"
+JAPANESE["MENU_PSVITA_CONFIG_SD2VITA_DESC"] =           "SD2VITAプラグインの構成 (StorageMgr v3.4 by CelesteBlue & Yoti)"
 JAPANESE["MENU_PSVITA_CHECK_ONLINE_PLUGINS_DESC"] =     "新しく更新されたプラグインの有無を確認します"
 
 --Vita-Nearest-Neighbour
@@ -56,7 +58,7 @@ JAPANESE["INSTALL_CATHERINE_HD_TITLE"] =                "Catherine Full Body HD 
 JAPANESE["NO_CHATERINE_GAMES"] =                        "Catherine Full Body not found"
 JAPANESE["INSTALLING_CATHERINE_HD_PATCH"] =             "Installing Catherine Full Body HD"
 
-JAPANESE["INSTRUCTIONS_HD_PATCH"] =                     " 1. Install the latest version of Sharpscale \n\n 2. Turn on 'Unlock framebuffer size' in the sharpscale config app \n\n 3. Overclocking is required for good performance (we recommend LOLIcon or lolita444/500)"
+JAPANESE["INSTRUCTIONS_HD_PATCH"] =                     " 1. Install the latest version of Sharpscale \n\n 2. Turn on 'Unlock framebuffer size' in the sharpscale config app \n\n 3. Overclocking is required for good performance (we recommend PSVshell+)"
 
 --Options PSP
 JAPANESE["MENU_PSP_TITLE"] =                            "PSP（Adrenaline）プラグイン"
@@ -71,11 +73,11 @@ JAPANESE["MENU_PSP_PLUGINS_DESC"] =                     "Adrenaline用のPSPプ�
 --Options Extras
 JAPANESE["MENU_EXTRAS_PKGJ_TITLE"] =                    "PKGJ設定オプション"
 JAPANESE["MENU_EXTRAS_INSTALL_ITLSENSO"] =              "iTLS-Enso.vpkをダウンロードしてインストール"
-JAPANESE["MENU_EXTRAS_INSTALL_FASTRESET"] =             "FastReset vpkをダウンロードしてインストール"
-JAPANESE["MENU_EXTRAS_INSTALL_VITASHELL"] =             "Download and install Vitashell vpk"
-JAPANESE["MENU_EXTRAS_INSTALL_SHARKF00D"] =             "Download and install ShaRKF00D vpk"
-JAPANESE["MENU_EXTRAS_INSTALL_BATTFIX"] =               "batteryFixer.vpkをダウンロードしてインストール"
-JAPANESE["MENU_EXTRAS_INSTALL_YAMT"] =                  "Download and install Yamt vpk"
+JAPANESE["MENU_EXTRAS_INSTALL_VITASHELL"] =             "Download and install Vitashell"
+JAPANESE["MENU_EXTRAS_INSTALL_VITASHELL2"] =            "Download and install Vitashell (from Yoti)"
+JAPANESE["MENU_EXTRAS_INSTALL_SHARKF00D"] =             "Download and install ShaRKF00D"
+JAPANESE["MENU_EXTRAS_INSTALL_BATTFIX"] =               "batteryFixer をダウンロードしてインストール"
+JAPANESE["MENU_EXTRAS_INSTALL_YAMT"] =                  "Download and install Yamt"
 JAPANESE["MENU_EXTRAS_CONVERT_BOOTSPLASH"] =            "カスタムブートスプラッシュの設定"
 JAPANESE["MENU_EXTRAS_CUSTOM_WARNING"] =                "カスタム警告メッセージの設定"
 JAPANESE["MENU_EXTRAS_TRANSP_IMPOSE"] =                 "クイックメニュー透明化の設定"
@@ -98,9 +100,9 @@ JAPANESE["MENU_EXTRAS_CUSTOM_PKG_CONFIG_DESC"] =        "PKGJのconfig.txtでオ
 JAPANESE["MENU_EXTRAS_CUSTOMBOOTSPLASH_DESC"] =         "起動時にカスタムイメージを設定できます"
 JAPANESE["MENU_EXTRAS_CUSTOMWARNING_DESC"] =            "ENSOで起動するときに、標準の警告メッセージの代わりにカスタムの警告メッセージを設定できます"
 JAPANESE["MENU_EXTRAS_TRANSPIMPOSE_DESC"] =             "透明化のレベルを設定できます。（255 = 0％透明、0 = 100％透明） 30未満の値は推奨されません"
-JAPANESE["MENU_EXTRAS_INSTALL_ITLSENSO_DESC"] =         "VitaにiTLS-Enso.vpkをダウンロードしてインストールできます（Enso対応デバイスにTLS v1.2を追加します）"
-JAPANESE["MENU_EXTRAS_INSTALL_FASTRESET_DESC"] =        "Download and install FastReset vpk in your Vita"
+JAPANESE["MENU_EXTRAS_INSTALL_ITLSENSO_DESC"] =         "Download and install iTLS-Enso vpk in your Vita (Adds TLS v1.2 to Enso enabled devices)"
 JAPANESE["MENU_EXTRAS_INSTALL_VITASHELL_DESC"] =        "Download and install Vitashell vpk in your Vita"
+JAPANESE["MENU_EXTRAS_INSTALL_VITASHELL2_DESC"] =       "Download and install Vitashell vpk in your Vita (From Yoti github)"
 JAPANESE["MENU_EXTRAS_INSTALL_YAMT_DESC"] =             "Download and install Yamt vpk in your Vita: Yet another (re)mount tool kernel plugin for PS Vita/PS TV (Requires Enso, compatible ONLY with firmware 3.60 and 3.65)"
 JAPANESE["MENU_EXTRAS_INSTALL_SHARKF00D_DESC"] =        "Download and install ShaRKF00D vpk in your Vita"
 JAPANESE["MENU_EXTRAS_INSTALL_DESC_BATTFIX"] =          "PSViaにPSP2-batteryFixer.vpkをダウンロードしてインストールできます（PSVitaのバッテリー関連の問題のほとんどを修正します）"
@@ -115,7 +117,9 @@ JAPANESE["MENU_SETTINGS_LANG_ONLINE"] =                 "利用可能な言語�
 JAPANESE["MENU_SETTINGS_ENABLE_AUTOUPDATE"] =           "自動更新を有効にする: "
 JAPANESE["MENU_SETTINGS_CHANGE_LANGUAGE"] =             "言語を変更する"
 JAPANESE["MENU_SETTINGS_CHANGE_FONT"] =                 "Change font"
+JAPANESE["MENU_SETTINGS_AUTO_FIX"] =                    "Tai Config Auto: "
 
+JAPANESE["MENU_SETTINGS_AUTO_FIX_DESC"] =               "Enable/Disable The Tai Config Auto"
 JAPANESE["MENU_SETTINGS_LANG_ONLINE_DESC"] =            "AutoPlugin IIの利用可能な言語パックをダウンロードする"
 JAPANESE["MENU_SETTINGS_AUTOUPDATE_DESC"] =             "自動更新を有効にする：はい/いいえ"
 JAPANESE["MENU_SETTINGS_CHANGE_LANGUAGE_DESC"] =        "AutoPlugin IIの言語をデフォルトとして変更および設定できます"
@@ -199,6 +203,7 @@ JAPANESE["UPDATE_CHECK_DB"] =                           "データベースの�
 JAPANESE["UPDATE_PLUGIN"] =                             "プラグインを更新しました"
 JAPANESE["UPDATE_ERROR_DB"] =                           "db.luaのダウンロードエラー"
 JAPANESE["UPDATE_NO_NEWS"] =                            "すべてのプラグインは最新です"
+JAPANESE["UPDATE_QUESTION"] =                           "is installed\n\nWould you like to update it?"
 
 --npdrm free
 JAPANESE["NPDRMFREE_TITLE"] =                           "NPDRM FREEプラグインをインストールする (by qwikrazor87)"
@@ -358,7 +363,6 @@ JAPANESE["INSTALLP_DESC_VITABRIGHT"] =                  "カスタムガンマ�
 JAPANESE["INSTALLP_DESC_NOAVLS"] =                      "AVCSを無効にします"
 JAPANESE["INSTALLP_DESC_REPATCHEX"] =                   "Modification of rePatch that adds Homebrew app0: and ux0:/data migration to other partitions, allowing you to play games with data on different storage."
 JAPANESE["INSTALLP_DESC_REPATCH"] =                     "暗号化されたゲームの改造を許可し（ux0：patchと同様）、ゲームのパッチを適用して低いファームウェアチェックをバイパスします"
-JAPENESE["INSTALLP_DESC_PSU"] =                         "Forces pocket station support on all PS1 Classics!"
 JAPANESE["INSTALLP_DESC_REPATCH271"] =                  "バージョン3.0のいくつかの問題を解決するrePATCHの先行バージョン"
 JAPANESE["INSTALLP_DESC_LOLICON"] =                     "カーネルで実行されるプラグインを介してオーバークロック（500MHz）が可能になります。 オーバークロックを使用した結果、PSVitaが破損する可能性があるため、慎重に使用してください （SELECT + UPメニューを選択します。SELECT + DOWNメニューを閉じます）"
 JAPANESE["INSTALLP_DESC_DS3VITA"] =                     "DualShock 3でPSVitaを制御する"
@@ -397,6 +401,8 @@ JAPANESE["INSTALLP_DESC_DERIN"] =                       "Vita clocks OSD display
 JAPANESE["INSTALLP_DESC_LOLITA"] =                      "Vitaのクロック数を常に最大に設定し、激しいゲームでは低輝度やWi-Fiなしなどの制限を無効にします"
 JAPANESE["INSTALLP_DESC_LOLITA4"] =                     "Vitaのクロック数を常に444MHzに設定し、激しいゲームで低輝度やWi-Fiなしなどの制限を無効にします"
 JAPANESE["INSTALLP_DESC_PSVSHELL"] =                    "オーバークロックプラグイン（3つのGUIモードを切り替えるには、SELECT + UPまたはSELECT + DOWN）"
+JAPANESE["INSTALLP_DESC_PSVSHELLPLUS"] =                "Advanced Overclock&Info plugin for PS Vita. Provides fully GPU accelerated HUD, accurate memory and FPS tracking with full Quick Menu integration."
+JAPANESE["INSTALLP_DESC_POCKETSTATION"] =               "Forces pocketstation support on all PS1 Classics"
 JAPANESE["INSTALLP_DESC_SYSCALL6"] =                    "PSVitaのlv0のsecure_kernelのsyscall6にパッチを当てるツール （SELF/RVKチェック）"
 JAPANESE["INSTALLP_DESC_MONAURAL"] =                    "PSVitaのモノラルオーディオと左右のチャンネルバランスを変更する（MonauralConfig.vpkが必要）"
 JAPANESE["INSTALLP_DESC_MUPREMIUM"] =                   "ゲームやアプリケーションでバックグラウンドミュージックの再生を有効にします"
@@ -450,6 +456,7 @@ JAPANESE["INSTALLP_DESC_QUICKMENU"] =             	    "Quick Menu Plus merges Q
 JAPANESE["INSTALLP_DESC_DT2S_STATUSBAR"] =              "(Recommended) This version only works if you touch the very top part of your touchscreen. In SceShell (homescreen) this would be the status bar. This works more similarly to Android's double tap to sleep feature which is used on the status bar."
 JAPANESE["INSTALLP_DESC_FRUITPEEL"] =                   "Change lockscreen background wallpaper (PNG with 8 bit palette non-interlaced. Up to a maximum size of 896x448. The file size up to a maximum of 512 KiB)"
 JAPANESE["INSTALLP_DESC_QUICKLAUNCHER"] =               "A Plugin to add buttons to quickly launch apps in the quickmenu. Made using QuickMenuReborn."
+JAPANESE["INSTALLP_DESC_WAVE"] =                         "A PS Vita home background wave add plugin."
 
 --ALL
 JAPANESE["INSTALLP_DESC_VITANEARESTN"] =                "Simple taiHEN plugin for PlayStation Vita that overrides texture sampling. Forces rendering with point filtering method (Nearest-Neighbor interpolation), instead of linear"
@@ -485,6 +492,7 @@ JAPANESE["INSTALLP_DESC_SHARPSCALE"] =                  "Native 960x544 HDMI out
 JAPANESE["INSTALLP_DESC_RAPIDMENU"] =                   "Reduce quick menu open time from 2 seconds to 200 milliseconds."
 JAPANESE["INSTALLP_DESC_SCOREHAX"] =                    "Instant pro at any game!"
 JAPANESE["INSTALLP_DESC_HONRIPPER"] =                   "HonRipper is the plugin for PS Vita Sony Reader application (PCSC80012) that is designed to extract contents of Sony's .MNH (Marlin-Hon) book format."
+JAPANESE["INSTALLP_DESC_HIDEAP"] =                      "Hides ux0:/app/AUTOPLUG2 from any app its loaded into"
 
 --*NPXS10013
 JAPANESE["INSTALLP_DESC_PS4LINK"] =                     "優先リモート再生ボタンの設定を強制することができるtaiHENプラグイン"
