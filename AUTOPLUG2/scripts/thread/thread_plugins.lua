@@ -15,8 +15,8 @@ cont_plugins = 0
 
 files.delete("ux0:data/AUTOPLUGIN2/plugins/plugins.lua")
 if wlan.isconnected() then
-	http.download(string.format("https://raw.githubusercontent.com/%s/%s/master/plugins/plugins.lua", APP_REPO, APP_PROJECT), "ux0:data/AUTOPLUGIN2/plugins/plugins.lua")
-	if files.exists("ux0:data/AUTOPLUGIN2/plugins/plugins.lua") then
+    local res = http.download(string.format("https://raw.githubusercontent.com/%s/%s/master/plugins/plugins.lua", APP_REPO, APP_PROJECT), "ux0:data/AUTOPLUGIN2/plugins/plugins.lua")
+	if res.headers and res.headers.status_code == 200 and files.exists("ux0:data/AUTOPLUGIN2/plugins/plugins.lua") then
 		LANGUAGE = {}
 		dofile("ux0:data/AUTOPLUGIN2/plugins/plugins.lua")
 		--Plugins!!!
@@ -51,5 +51,6 @@ if wlan.isconnected() then
 		end
 	end
 end
+
 cont_global:set(cont_plugins)
 cont_global:lost()
